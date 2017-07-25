@@ -21,15 +21,17 @@ class CategoryDB
         {
             echo "Connection failed: " . $e->getMessage();
         }
-        $query = "SELECT * FROM category ORDER BY id";
+        $query = "SELECT * FROM cagetory";
         $rows = $conn->query($query);
         $categories = [];
         foreach ($rows as $row) {
-            $id = $row['id_cagetory'];
+            $id = $row['id_category'];
             $name = $row['name'];
             $category = new Category($id, $name);
             $categories.push($category);
         }
+        echo $categories;
         return $categories;
+
     }
 }

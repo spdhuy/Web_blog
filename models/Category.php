@@ -6,27 +6,27 @@
  * Time: 3:20 PM
  */
 class Category{
- private $idCagetory;
+ private $idCategory;
  private $name;
- public function __constuct($idCagetory,$name){
-     $this->_idCagetory = $idCagetory;
+ public function __constuct($idCategory,$name){
+     $this->_idCategory = $idCategory;
      $this->_name = $name;
  }
 
     /**
      * @return mixed
      */
-    public function getIdCagetory()
+    public function getIdCategory()
     {
-        return $this->idCagetory;
+        return $this->idCategoryory;
     }
 
     /**
      * @param mixed $idCagetory
      */
-    public function setIdCagetory($idCagetory)
+    public function setIdCategory($idCategory)
     {
-        $this->idCagetory = $idCagetory;
+        $this->idCategory = $idCategory;
     }
 
     /**

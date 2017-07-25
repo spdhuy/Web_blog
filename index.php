@@ -1,4 +1,4 @@
 <?php
-require_once './controllers/CagetoryController.php.php';
-$productController = new CategoryController();
-$productController->getAll();
+require_once 'controllers/CategoryController.php';
+$categoryController = new CategoryController();
+$categoryController->getAll();
