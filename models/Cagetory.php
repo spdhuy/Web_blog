@@ -8,7 +8,7 @@
 class Category{
  private $idCagetory;
  private $name;
- public function  __constuct($idCagetory,$name){
+ public function __constuct($idCagetory,$name){
      $this->_idCagetory = $idCagetory;
      $this->_name = $name;
  }
