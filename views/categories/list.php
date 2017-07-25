@@ -6,7 +6,7 @@
     <title>Cagetories</title>
 </head>
 <body>
-<h1>List products</h1>
+<h1>List category</h1>
 <div class="content">
     <table>
         <tr>
@@ -21,6 +21,11 @@
             </tr>
         <?php } ?>
     </table>
+    <form action="../../controllers/CategoryController.php" method="post">
+        <input type="text" name="idCagetory">
+        <input type="text" name="name">
+        <input type="Submit" value="Thêm" >
+    </form>
 </div>
 </body>
 </html>

@@ -1,25 +1,28 @@
 <?php
-require_once 'Category.php';
+require 'Category.php';
 /**
  * Created by PhpStorm.
- * User: nhatnk
- * Date: 7/24/17
- * Time: 10:59 AM
+ * User: huy
+ * Date: 7/25/17
+ * Time: 4:33 PM
  */
-class CategoryDB
-{
+class CategoryDB{
+    /**
+     * @return array
+     */
     public function getAll(){
         $servername = 'localhost';
         $username = 'sa';
         $password = '12345';
+        $conn = null;
         try {
             $conn = new PDO("mysql:host=$servername;dbname=PHPProject", $username, $password);
-            // set the PDO error mode to exception
-            $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         }
         catch(PDOException $e)
         {
-            echo "Connection failed: " . $e->getMessage();
+            $error_message = $e->getMessage();
+            include('database_error.php');
+            exit();
         }
         $query = "SELECT * FROM cagetory";
         $rows = $conn->query($query);
@@ -28,10 +31,26 @@ class CategoryDB
             $id = $row['id_category'];
             $name = $row['name'];
             $category = new Category($id, $name);
-            $categories.push($category);
+            $categories[] = $category;
         }
-        echo $categories;
         return $categories;
-
+    }
+    public function addCategory($id,$name){
+        $servername = 'localhost';
+        $username = 'sa';
+        $password = '12345';
+        $conn = null;
+        try {
+            $conn = new PDO("mysql:host=$servername;dbname=PHPProject", $username, $password);
+        }
+        catch(PDOException $e)
+        {
+            $error_message = $e->getMessage();
+            include('database_error.php');
+            exit();
+        }
+        $query = "insert into cagetory VALUES ($id,$name)";
+        $rows = $conn->query($query);
     }
 }
+?>
