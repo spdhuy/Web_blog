@@ -49,8 +49,8 @@ class CategoryDB{
             include('database_error.php');
             exit();
         }
-        $query = "insert into cagetory VALUES ($id,$name)";
-        $rows = $conn->query($query);
+        $query = "INSERT INTO cagetory(id_category, name) VALUES ($id,$name)";
+        $conn->query($query);
     }
 }
 ?>

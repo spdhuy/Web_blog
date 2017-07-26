@@ -8,9 +8,9 @@
 class Category{
  private $idCategory;
  private $name;
- public function __constuct($idCategory,$name){
-     $this->_idCategory = $idCategory;
-     $this->_name = $name;
+ public function __construct($idCategory,$name){
+     $this->idCategory = $idCategory;
+     $this->name = $name;
  }
 
     /**
@@ -18,7 +18,7 @@ class Category{
      */
     public function getIdCategory()
     {
-        return $this->idCategoryory;
+        return $this->idCategory;
     }
 
     /**

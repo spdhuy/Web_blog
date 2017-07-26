@@ -16,12 +16,12 @@
         </tr>
         <?php foreach ($categories as $category) { ?>
             <tr>
-                <td><?php echo $category->idCagetory ?></td>
-                <td><?php echo $category->name ?></td>
+                <td><?php echo $category->getIdCategory() ?></td>
+                <td><?php echo $category->getName() ?></td>
             </tr>
         <?php } ?>
     </table>
-    <form action="../../controllers/CategoryController.php" method="post">
+    <form action="./views/categories/add.php" method="post">
         <input type="text" name="idCagetory">
         <input type="text" name="name">
         <input type="Submit" value="Thêm" >

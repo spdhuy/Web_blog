@@ -1,18 +1,19 @@
 <?php
-require './models/CategoryDB.php';
+
 
 class CategoryController
 {
     public function getAll()
     {
+        require_once './models/CategoryDB.php';
         $categoryDb = new CategoryDB();
         $categories = $categoryDb->getAll();
-        include 'views/categories/list.php';
+        include './views/categories/list.php';
     }
-    public function addCategory(){
-
+    public function addCategory($id,$name){
+        require_once '../../models/CategoryDB.php';
         $categoryDb = new CategoryDB();
-        $categoryDb->addCategory($_POST['idCagetory'],$_POST['name']);
-        $this->getAll();
+        $categoryDb->addCategory($id,$name);
+        header('Location: http://localhost:8080/Web_blog/');
     }
 }
