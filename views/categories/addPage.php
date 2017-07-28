@@ -1,12 +1,10 @@
-<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    require '../../controllers/CategoryController.php';
-    $categoryController = new CategoryController();
-    $categoryController->addCategory($_POST['idCagetory'],$_POST['name']);
-}
-?>
-<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
-    <input type="text" name="idCagetory">
-    <input type="text" name="name">
+
+<form action="?page=add_category" method="post">
+    Id:
+    <input type="text"  name="id" >
+    <br>
+    Name:
+    <input type="text" name="name" >
+    <br>
     <input type="Submit" value="Thêm" >
 </form>

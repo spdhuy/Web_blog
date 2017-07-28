@@ -18,13 +18,15 @@
             <tr>
                 <td><?php echo $category->getIdCategory() ?></td>
                 <td><?php echo $category->getName() ?></td>
-                <td><form action="./views/categories/delete.php" method="post">
-                        <input type="hidden" name="idCagetory" value="<?php echo $category->getIdCategory() ?>">
+                <td><form action="" method="get">
+                        <input type="hidden" name="page" value="<?php echo 'delete_category' ?>">
+                        <input type="hidden" name="id" value="<?php echo $category->getIdCategory() ?>">
                         <input type="Submit" value="Xoa" >
                     </form>
                 </td>
-                <td><form action="./views/categories/edit.php" method="post">
-                        <input type="hidden" name="idCagetory" value="<?php echo $category->getIdCategory() ?>">
+                <td><form action="" method="get">
+                        <input type="hidden" name="page" value="<?php echo 'edit_category' ?>">
+                        <input type="hidden" name="idCategory" value="<?php echo $category->getIdCategory() ?>">
                         <input type="hidden" name="name" value="<?php echo $category->getName() ?>">
                         <input type="Submit" value="Sua" >
                     </form>
@@ -32,7 +34,10 @@
             </tr>
         <?php } ?>
     </table>
-    <a href="./views/categories/addPage.php">Them moi</a>
+    <form action="" method="get">
+        <input type="hidden" name="page" value="<?php echo 'add_category' ?>">
+        <input type="Submit" value="Thêm" >
+    </form>
 </div>
 </body>
 </html>

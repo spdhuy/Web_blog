@@ -1,4 +1,2 @@
 <?php
-require_once 'controllers/CategoryController.php';
-$categoryController = new CategoryController();
-$categoryController->getAll();
+require_once 'router/router.php';

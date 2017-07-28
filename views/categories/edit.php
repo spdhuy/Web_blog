@@ -1,18 +1,10 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: huy
- * Date: 7/26/17
- * Time: 11:28 AM
- */
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    require '../../controllers/CategoryController.php';
-    $categoryController = new CategoryController();
-    $categoryController->editCategory($_POST['idCagetory'],$_POST['name']);
-}
-?>
-<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
-    <input type="text" readonly="true" name="idCagetory">
-    <input type="text" name="name">
+
+<form action="?page=edit_category" method="post">
+    Id:
+    <input type="text" readonly="true" name="id" value="<?= $_GET['idCategory']?>">
+    <br>
+    Name:
+    <input type="text" name="name" value="<?= $_GET['name']?>">
+    <br>
     <input type="Submit" value="Sửa" >
 </form>
