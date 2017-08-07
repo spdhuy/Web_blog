@@ -1,5 +1,5 @@
 
-<form action="?page=add_category" method="post">
+<form action="?page=add_blog" method="post">
     Id:
     <input type="text"  name="id" >
     <br>

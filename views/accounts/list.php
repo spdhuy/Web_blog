@@ -10,24 +10,38 @@
 <div class="content">
     <table>
         <tr>
-            <th>ID</th>
-            <th>Name</th>
+            <th>username</th>
+            <th>password</th>
+            <th>fullname</th>
+            <th>phone</th>
+            <th>address</th>
+            <th>age</th>
+            <th>gender</th>
+            <th>description</th>
+            <th>avatar</th>
             <th class="right">action</th>
         </tr>
-        <?php foreach ($categories as $category) { ?>
+        <?php foreach ($accounts as $account) { ?>
             <tr>
-                <td><?php echo $category->getIdCategory() ?></td>
-                <td><?php echo $category->getName() ?></td>
+                <td><?php echo $account->getUsername() ?></td>
+                <td><?php echo $account->getPassword() ?></td>
                 <td><form action="" method="get">
-                        <input type="hidden" name="page" value="<?php echo 'delete_category' ?>">
-                        <input type="hidden" name="id" value="<?php echo $category->getIdCategory() ?>">
+                        <input type="hidden" name="page" value="<?php echo 'delete_account' ?>">
+                        <input type="hidden" name="id" value="<?php echo $account->getUsername() ?>">
                         <input type="Submit" value="Xoa" >
                     </form>
                 </td>
                 <td><form action="" method="get">
-                        <input type="hidden" name="page" value="<?php echo 'edit_category' ?>">
-                        <input type="hidden" name="idCategory" value="<?php echo $category->getIdCategory() ?>">
-                        <input type="hidden" name="name" value="<?php echo $category->getName() ?>">
+                        <input type="hidden" name="page" value="<?php echo 'edit_account' ?>">
+                        <input type="hidden" name="idCategory" value="<?php echo $account->getUsername() ?>">
+                        <input type="hidden" name="name" value="<?php echo $account->getPassword() ?>">
+                        <input type="hidden" name="fullname" value="<?php echo $account->getFullname() ?>">
+                        <input type="hidden" name="phone" value="<?php echo $account->getPhone() ?>">
+                        <input type="hidden" name="address" value="<?php echo $account->getAddress() ?>">
+                        <input type="hidden" name="age" value="<?php echo $account->getAge() ?>">
+                        <input type="hidden" name="gender" value="<?php echo $account->getGender() ?>">
+                        <input type="hidden" name="description" value="<?php echo $account->getDescription() ?>">
+                        <input type="hidden" name="avatar" value="<?php echo $account->getAvatar() ?>">
                         <input type="Submit" value="Sua" >
                     </form>
                 </td>
