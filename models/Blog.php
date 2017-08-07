@@ -6,31 +6,31 @@
  * Time: 3:25 PM
  */
 class Blog{
-    private $idBlog;
+    private $id_blog;
     private $username;
-    private $idCagetory;
+    private $id_category;
     private $title;
-    private $featureImage;
+    private $feature_image;
     private $content;
     private $postedDay;
 
     /**
      * Blog constructor.
-     * @param $idBlog
+     * @param $id_blog
      * @param $username
-     * @param $idCagetory
+     * @param $id_cagetory
      * @param $title
-     * @param $featureImage
+     * @param $feature_image
      * @param $content
      * @param $postedDay
      */
-    public function __construct($idBlog, $username, $idCagetory, $title, $featureImage, $content, $postedDay)
+    public function __construct($id_blog, $username, $id_category, $title, $feature_image, $content, $postedDay)
     {
-        $this->idBlog = $idBlog;
+        $this->id_blog = $id_blog;
         $this->username = $username;
-        $this->idCagetory = $idCagetory;
+        $this->id_category = $id_category;
         $this->title = $title;
-        $this->featureImage = $featureImage;
+        $this->feature_image = $feature_image;
         $this->content = $content;
         $this->postedDay = $postedDay;
     }
@@ -40,15 +40,15 @@ class Blog{
      */
     public function getIdBlog()
     {
-        return $this->idBlog;
+        return $this->id_blog;
     }
 
     /**
-     * @param mixed $idBlog
+     * @param mixed $id_blog
      */
-    public function setIdBlog($idBlog)
+    public function setIdBlog($id_blog)
     {
-        $this->idBlog = $idBlog;
+        $this->id_blog = $id_blog;
     }
 
     /**
@@ -70,17 +70,17 @@ class Blog{
     /**
      * @return mixed
      */
-    public function getIdCagetory()
+    public function getIdCategory()
     {
-        return $this->idCagetory;
+        return $this->id_category;
     }
 
     /**
-     * @param mixed $idCagetory
+     * @param mixed $id_cagetory
      */
-    public function setIdCagetory($idCagetory)
+    public function setIdCategory($id_category)
     {
-        $this->idCagetory = $idCagetory;
+        $this->id_category = $id_category;
     }
 
     /**
@@ -104,15 +104,15 @@ class Blog{
      */
     public function getFeatureImage()
     {
-        return $this->featureImage;
+        return $this->feature_image;
     }
 
     /**
-     * @param mixed $featureImage
+     * @param mixed $feature_image
      */
-    public function setFeatureImage($featureImage)
+    public function setFeatureImage($feature_image)
     {
-        $this->featureImage = $featureImage;
+        $this->feature_image = $feature_image;
     }
 
     /**
@@ -146,6 +146,17 @@ class Blog{
     {
         $this->postedDay = $postedDay;
     }
+
+    /**
+     * Blog constructor.
+     * @param $idBlog
+     * @param $username
+     * @param $idCagetory
+     * @param $title
+     * @param $featureImage
+     * @param $content
+     * @param $postedDay
+     */
 
 
 }

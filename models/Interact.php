@@ -6,24 +6,24 @@
  * Time: 3:44 PM
  */
  class Interact{
-     private $idInteract;
-     private $idBlog;
+     private $id_interact;
+     private $id_blog;
      private $username;
      private $type;
      private $content;
 
      /**
       * Interact constructor.
-      * @param $idInteract
-      * @param $idBlog
+      * @param $id_interact
+      * @param $id_blog
       * @param $username
       * @param $type
       * @param $content
       */
-     public function __construct($idInteract, $idBlog, $username, $type, $content)
+     public function __construct($id_interact, $id_blog, $username, $type, $content)
      {
-         $this->idInteract = $idInteract;
-         $this->idBlog = $idBlog;
+         $this->id_interact = $id_interact;
+         $this->id_blog = $id_blog;
          $this->username = $username;
          $this->type = $type;
          $this->content = $content;
@@ -34,15 +34,15 @@
       */
      public function getIdInteract()
      {
-         return $this->idInteract;
+         return $this->id_interact;
      }
 
      /**
-      * @param mixed $idInteract
+      * @param mixed $id_interact
       */
-     public function setIdInteract($idInteract)
+     public function setIdInteract($id_interact)
      {
-         $this->idInteract = $idInteract;
+         $this->id_interact = $id_interact;
      }
 
      /**
@@ -50,15 +50,15 @@
       */
      public function getIdBlog()
      {
-         return $this->idBlog;
+         return $this->id_blog;
      }
 
      /**
-      * @param mixed $idBlog
+      * @param mixed $id_blog
       */
-     public function setIdBlog($idBlog)
+     public function setIdBlog($id_blog)
      {
-         $this->idBlog = $idBlog;
+         $this->id_blog = $id_blog;
      }
 
      /**
@@ -108,5 +108,14 @@
      {
          $this->content = $content;
      }
+
+     /**
+      * Interact constructor.
+      * @param $idInteract
+      * @param $idBlog
+      * @param $username
+      * @param $type
+      * @param $content
+      */
 
  }
