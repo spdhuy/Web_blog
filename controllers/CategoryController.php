@@ -28,6 +28,7 @@ class CategoryController
             $name = $_POST['name'];
             $categoryDb = new CategoryDB();
             $categoryDb->editCategory($id,$name);
+
             header('Location: http://localhost:8080/Web_blog/');
         }else
         require ('./views/categories/edit.php');

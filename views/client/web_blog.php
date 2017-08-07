@@ -5,8 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../../css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/style.css">
     <title>Document</title>
 </head>
 <body>
@@ -15,7 +15,7 @@
         <div class="col-md-12 header">
             <div class="metabar-inner">
                 <div class="col-md-9 metabar-block-left">
-                    <img src="img/lodo.png" alt="logo">
+                    <img src="../../img/lodo.png" alt="logo">
                 </div>
                 <div class="col-md-3 metabar-block-right">
                     <a href="#">Write a story</a>
@@ -56,14 +56,14 @@
             <div>
                 <div class="col-md-6 content-item">
                     <a href="detail.php">
-                        <img src="img/thomas oppong.jpeg" height="1334" width="2000"/></a>
+                        <img src="../../img/thomas%20oppong.jpeg" height="1334" width="2000"/></a>
                     <div class="content-item-right">
                         <div class="content-item-right-top">
                             <a href="#"> <h3>The Inconvenient Truths About Getting Work Done</h3></a>
                             <a href="#"><h4>Humans are prolific procrastinators. People have struggled with habitual hesitation going back to ancient civilizations. It’s easy to make…</h4></a>
                         </div>
                         <div class="content-item-right-bottom">
-                            <a href="#"><img src="img/thomas oppong icon.jpeg" height="40" width="40"/></a>
+                            <a href="#"><img src="../../img/thomas%20oppong%20icon.jpeg" height="40" width="40"/></a>
                             <a href="#"><span class="glyphicon glyphicon-heart-empty"></span></a>
                             <a href="#">Thomas Oppong</br></a>
                             <time datetime="2017-07-13">July 7 . 6 min read</time>
@@ -72,14 +72,14 @@
                 </div>
                 <div class="col-md-6 content-item">
                     <a href="#">
-                        <img src="img/thomas oppong.jpeg" height="1334" width="2000"/></a>
+                        <img src="../../img/thomas%20oppong.jpeg" height="1334" width="2000"/></a>
                     <div class="content-item-right">
                         <div class="content-item-right-top">
                             <a href="#"> <h3>The Inconvenient Truths About Getting Work Done</h3></a>
                             <a href="#"><h4>Humans are prolific procrastinators. People have struggled with habitual hesitation going back to ancient civilizations. It’s easy to make…</h4></a>
                         </div>
                         <div class="content-item-right-bottom">
-                            <a href="#"><img src="img/thomas oppong icon.jpeg" height="40" width="40"/></a>
+                            <a href="#"><img src="../../img/thomas%20oppong%20icon.jpeg" height="40" width="40"/></a>
                             <a href="#"><span class="glyphicon glyphicon-heart-empty"></span></a>
                             <a href="#">Thomas Oppong</br></a>
                             <time datetime="2017-07-13">July 7 . 6 min read</time>
@@ -88,14 +88,14 @@
                 </div>
                 <div class="col-md-6 content-item">
                     <a href="#">
-                        <img src="img/thomas oppong.jpeg" height="1334" width="2000"/></a>
+                        <img src="../../img/thomas%20oppong.jpeg" height="1334" width="2000"/></a>
                     <div class="content-item-right">
                         <div class="content-item-right-top">
                             <a href="#"> <h3>The Inconvenient Truths About Getting Work Done</h3></a>
                             <a href="#"><h4>Humans are prolific procrastinators. People have struggled with habitual hesitation going back to ancient civilizations. It’s easy to make…</h4></a>
                         </div>
                         <div class="content-item-right-bottom">
-                            <a href="#"><img src="img/thomas oppong icon.jpeg" height="40" width="40"/></a>
+                            <a href="#"><img src="../../img/thomas%20oppong%20icon.jpeg" height="40" width="40"/></a>
                             <a href="#"><span class="glyphicon glyphicon-heart-empty"></span></a>
                             <a href="#">Thomas Oppong</br></a>
                             <time datetime="2017-07-13">July 7 . 6 min read</time>
@@ -104,14 +104,14 @@
                 </div>
                 <div class="col-md-6 content-item">
                     <a href="#">
-                        <img src="img/thomas oppong.jpeg" height="1334" width="2000"/></a>
+                        <img src="../../img/thomas%20oppong.jpeg" height="1334" width="2000"/></a>
                     <div class="content-item-right">
                         <div class="content-item-right-top">
                             <a href="#"> <h3>The Inconvenient Truths About Getting Work Done</h3></a>
                             <a href="#"><h4>Humans are prolific procrastinators. People have struggled with habitual hesitation going back to ancient civilizations. It’s easy to make…</h4></a>
                         </div>
                         <div class="content-item-right-bottom">
-                            <a href="#"><img src="img/thomas oppong icon.jpeg" height="40" width="40"/></a>
+                            <a href="#"><img src="../../img/thomas%20oppong%20icon.jpeg" height="40" width="40"/></a>
                             <a href="#"><span class="glyphicon glyphicon-heart-empty"></span></a>
                             <a href="#">Thomas Oppong</br></a>
                             <time datetime="2017-07-13">July 7 . 6 min read</time>
@@ -131,7 +131,7 @@
             </div>
             <div>
                 <div class="col-md-4 content-item">
-                    <a href="#"><img src="img/john boik.jpg"/></a>
+                    <a href="#"><img src="../../img/john%20boik.jpg"/></a>
                     <div class="content-item-right">
                         <div class="content-item-right-top">
                             <h4> <span class="glyphicon glyphicon-volume-down"></span> Audio available</h4>
@@ -140,7 +140,7 @@
                             <a href="#"><h4>Humans are prolific procrastinators. People have struggled with habitual hesitation going back to ancient civilizations. It’s easy to make…</h4></a>
                         </div>
                         <div class="content-item-right-bottom">
-                            <a href="#"><img src="img/thomas oppong icon.jpeg" height="40" width="40"/></a>
+                            <a href="#"><img src="../../img/thomas%20oppong%20icon.jpeg" height="40" width="40"/></a>
                             <a href="#"><span class="glyphicon glyphicon-heart-empty"></span></a>
                             <a href="#">Thomas Oppong</br></a>
                             <time datetime="2017-07-13">July 7 . 6 min read</time>
@@ -150,7 +150,7 @@
 
                 </div>
                 <div class="col-md-4 content-item">
-                    <a href="#"><img src="img/john boik.jpg"/></a>
+                    <a href="#"><img src="../../img/john%20boik.jpg"/></a>
                     <div class="content-item-right">
                         <div class="content-item-right-top">
                             <h4> <span class="glyphicon glyphicon-volume-down"></span> Audio available</h4>
@@ -159,7 +159,7 @@
                             <a href="#"><h4>Humans are prolific procrastinators. People have struggled with habitual hesitation going back to ancient civilizations. It’s easy to make…</h4></a>
                         </div>
                         <div class="content-item-right-bottom">
-                            <a href="#"><img src="img/thomas oppong icon.jpeg" height="40" width="40"/></a>
+                            <a href="#"><img src="../../img/thomas%20oppong%20icon.jpeg" height="40" width="40"/></a>
                             <a href="#"><span class="glyphicon glyphicon-heart-empty"></span></a>
                             <a href="#">Thomas Oppong</br></a>
                             <time datetime="2017-07-13">July 7 . 6 min read</time>
@@ -169,7 +169,7 @@
 
                 </div>
                 <div class="col-md-4 content-item">
-                    <a href="#"><img src="img/john boik.jpg"/></a>
+                    <a href="#"><img src="../../img/john%20boik.jpg"/></a>
                     <div class="content-item-right">
                         <div class="content-item-right-top">
                             <h4> <span class="glyphicon glyphicon-volume-down"></span> Audio available</h4>
@@ -178,7 +178,7 @@
                             <a href="#"><h4>Humans are prolific procrastinators. People have struggled with habitual hesitation going back to ancient civilizations. It’s easy to make…</h4></a>
                         </div>
                         <div class="content-item-right-bottom">
-                            <a href="#"><img src="img/thomas oppong icon.jpeg" height="40" width="40"/></a>
+                            <a href="#"><img src="../../img/thomas%20oppong%20icon.jpeg" height="40" width="40"/></a>
                             <a href="#"><span class="glyphicon glyphicon-heart-empty"></span></a>
                             <a href="#">Thomas Oppong</br></a>
                             <time datetime="2017-07-13">July 7 . 6 min read</time>
@@ -188,7 +188,7 @@
 
                 </div>
                 <div class="col-md-4 content-item">
-                    <a href="#"><img src="img/john boik.jpg"/></a>
+                    <a href="#"><img src="../../img/john%20boik.jpg"/></a>
                     <div class="content-item-right">
                         <div class="content-item-right-top">
                             <h4> <span class="glyphicon glyphicon-volume-down"></span> Audio available</h4>
@@ -197,7 +197,7 @@
                             <a href="#"><h4>Humans are prolific procrastinators. People have struggled with habitual hesitation going back to ancient civilizations. It’s easy to make…</h4></a>
                         </div>
                         <div class="content-item-right-bottom">
-                            <a href="#"><img src="img/thomas oppong icon.jpeg" height="40" width="40"/></a>
+                            <a href="#"><img src="../../img/thomas%20oppong%20icon.jpeg" height="40" width="40"/></a>
                             <a href="#"><span class="glyphicon glyphicon-heart-empty"></span></a>
                             <a href="#">Thomas Oppong</br></a>
                             <time datetime="2017-07-13">July 7 . 6 min read</time>

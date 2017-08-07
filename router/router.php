@@ -65,4 +65,4 @@ if(isset($_GET['page']))
             break;
 
     }
-else request('CategoryController','getAll');
+else request('ClientController','getAll');

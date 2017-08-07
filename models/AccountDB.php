@@ -28,6 +28,7 @@ class AccountDB extends DB {
         }
         return $accounts;
     }
+
     public function addAccount($account){
         $conn = $this->connect();
         $username = $account->getUsername();
@@ -62,6 +63,14 @@ class AccountDB extends DB {
         $conn = $this->connect();
         $query = "DELETE FROM account WHERE username = '$username'";
         $conn->query($query);
+    }
+
+    public function getAccountByUsername($username){
+        $conn = $this->connect();
+        $query = "SELECT * FROM account WHERE  username='$username'";
+        $row = $conn->query($query);
+        $account = new Account($row['username'],$row['password'],$row['fullname'],$row['phone'],$row['address'],$row['email'],$row['age'],$row['gender'],$row['description'],$row['avatar']);
+        return $account;
     }
 }
 ?>

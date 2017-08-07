@@ -8,9 +8,9 @@
 	<!-- Google Fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700|Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="../../css/animate.css">
 	<!-- Custom Stylesheet -->
-	<link rel="stylesheet" href="css/sign_style.css">
+	<link rel="stylesheet" href="../../css/sign_style.css">
 
 </head>
 
@@ -37,7 +37,7 @@
 		</div>
 	</div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="js/sign.js"></script>
+    <script src="../../js/sign.js"></script>
 </body>
 
 
