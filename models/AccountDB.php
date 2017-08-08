@@ -6,6 +6,7 @@
  * Time: 4:40 PM
  */
 require 'Account.php';
+
 require 'DB.php';
 /**
  * Created by PhpStorm.
@@ -65,12 +66,14 @@ class AccountDB extends DB {
         $conn->query($query);
     }
 
-    public function getAccountByUsername($username){
+    public function getAccountByUsernameAndPassword($username,$password){
         $conn = $this->connect();
-        $query = "SELECT * FROM account WHERE  username='$username'";
+        $query = "SELECT * FROM account WHERE  username='$username' and password = '$password'";
         $row = $conn->query($query);
         $account = new Account($row['username'],$row['password'],$row['fullname'],$row['phone'],$row['address'],$row['email'],$row['age'],$row['gender'],$row['description'],$row['avatar']);
         return $account;
     }
+
+
 }
 ?>

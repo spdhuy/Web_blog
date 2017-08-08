@@ -63,6 +63,11 @@ if(isset($_GET['page']))
         case 'delete_interact':
             request('InteractController','deleteInteract');
             break;
-
+        case 'sign_in':
+            request('AccountController','signIn');
+            break;
+        case 'login':
+            request('AccountController','login');
+            break;
     }
 else request('ClientController','getAll');

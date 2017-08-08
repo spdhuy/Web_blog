@@ -15,6 +15,7 @@
             <th>fullname</th>
             <th>phone</th>
             <th>address</th>
+            <th>email</th>
             <th>age</th>
             <th>gender</th>
             <th>description</th>
@@ -25,6 +26,14 @@
             <tr>
                 <td><?php echo $account->getUsername() ?></td>
                 <td><?php echo $account->getPassword() ?></td>
+                <td><?php echo $account->getFullname() ?></td>
+                <td><?php echo $account->getPhone() ?></td>
+                <td><?php echo $account->getAddress() ?></td>
+                <td><?php echo $account->getEmail() ?></td>
+                <td><?php echo $account->getAge() ?></td>
+                <td><?php echo $account->getGender() ?></td>
+                <td><?php echo $account->getDescription() ?></td>
+                <td><?php echo $account->getAvatar() ?></td>
                 <td><form action="" method="get">
                         <input type="hidden" name="page" value="<?php echo 'delete_account' ?>">
                         <input type="hidden" name="id" value="<?php echo $account->getUsername() ?>">

@@ -23,8 +23,8 @@ class ClientController
     public function getAll()
     {
         require_once './models/BlogDB.php';
-        $BlogDb = new BlogDB();
-        $blogs = $BlogDb->getAll();
+        $blogDb = new BlogDB();
+        $blogs = $blogDb->getAll();
         require './views/client/home.php';
     }
     public function signIn(){

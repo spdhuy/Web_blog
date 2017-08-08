@@ -15,7 +15,23 @@ class Account{
     private $gender;
     private $description;
     private $avatar;
+    private $email;
 
+    /**
+     * @return mixed
+     */
+    public function getEmail()
+    {
+        return $this->email;
+    }
+
+    /**
+     * @param mixed $email
+     */
+    public function setEmail($email)
+    {
+        $this->email = $email;
+    }
     /**
      * Account constructor.
      * @param $username
@@ -28,7 +44,7 @@ class Account{
      * @param $description
      * @param $avatar
      */
-    public function __construct($username, $password, $fullname, $phone, $address, $age, $gender, $description, $avatar)
+    public function __construct($username, $password, $fullname, $phone, $address, $email,$age, $gender, $description, $avatar)
     {
         $this->username = $username;
         $this->password = $password;
@@ -39,6 +55,7 @@ class Account{
         $this->gender = $gender;
         $this->description = $description;
         $this->avatar = $avatar;
+        $this->email = $email;
     }
 
     /**

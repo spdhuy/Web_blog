@@ -19,7 +19,7 @@
                 </div>
                 <div class="col-md-3 metabar-block-right">
                     <a href="#">Write a story</a>
-                    <a href="#" style="color: black">Sign in/ Sign up</a>
+                    <a href="?page=sign_in" style="color: black">Sign in/ Sign up</a>
                     <span class="glyphicon glyphicon-search"></span>
                 </div>
             </div>
@@ -52,7 +52,7 @@
                 <div class="content-item-right">
                     <div class="content-item-right-top">
                         <a href="#"> <h3><?= $blog->getTitle() ?></h3></a>
-                        <a href="#"><h4><?= $blog->getContent() ?></h4></a>
+                        <a href="#"><h4><?= $blog->getDescription() ?></h4></a>
                     </div>
                     <div class="content-item-right-bottom">
                         <a href="#"><img src="img/<?= $blog->getAccount()->getAvatar() ?>" height="40" width="40"/></a>

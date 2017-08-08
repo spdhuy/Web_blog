@@ -5,6 +5,7 @@
  * Date: 7/24/17
  * Time: 3:25 PM
  */
+require 'Account.php';
 class Blog{
     private $id_blog;
     private $username;
@@ -13,7 +14,8 @@ class Blog{
     private $feature_image;
     private $content;
     private $postedDay;
-
+    private $account;
+    private $description;
     /**
      * Blog constructor.
      * @param $id_blog
@@ -33,6 +35,13 @@ class Blog{
         $this->feature_image = $feature_image;
         $this->content = $content;
         $this->postedDay = $postedDay;
+        $space_count=0;
+        $this->description = "";
+        for($count =0;$count<strlen($content)&&$space_count<15;$count++){
+            if($content[$count]==' ') $space_count++;
+            $this->description .= $content[$count];
+        }
+        $this->description.="...";
     }
 
     /**
@@ -145,6 +154,38 @@ class Blog{
     public function setPostedDay($postedDay)
     {
         $this->postedDay = $postedDay;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getAccount()
+    {
+        return $this->account;
+    }
+
+    /**
+     * @param mixed $account
+     */
+    public function setAccount($account)
+    {
+        $this->account = $account;
+    }
+
+    /**
+     * @return string
+     */
+    public function getDescription()
+    {
+        return $this->description;
+    }
+
+    /**
+     * @param string $description
+     */
+    public function setDescription($description)
+    {
+        $this->description = $description;
     }
 
     /**

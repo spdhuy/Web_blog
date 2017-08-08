@@ -39,7 +39,7 @@ class AccountController
     }
     public function editAccount(){
         require_once './models/AccountDB.php';
-        if(isset($_POST['id'])&&isset($_POST['name'])){
+        if(isset($_POST['username'])&&isset($_POST['password'])){
             $account = $this->getAccount();
             $AccountDb = new AccountDB();
             $AccountDb->editAccount($account);
@@ -56,5 +56,26 @@ class AccountController
 
             header('Location: http://localhost:8080/Web_blog/');
         }
+    }
+    public function signIn(){
+        if(isset($_SESSION['user'])){
+
+        }
+        else require './views/client/sign_in.php';
+    }
+    public function login(){
+        require_once './models/AccountDB.php';
+        if(isset($_GET['username'])&&isset($_GET['password'])){
+            $AccountDb = new AccountDB();
+            try {
+                $account = $AccountDb->getAccountByUsernameAndPassword($_GET['username'], $_GET['password']);
+                if($account->getUsername()=='admin') header('Location: http://localhost:8080/Web_blog/?page=list_category');
+                else header('Location: http://localhost:8080/Web_blog/');
+            }
+            catch (Exception $e){
+
+            }
+        }else
+            require ('./views/client/sign_in.php');
     }
 }

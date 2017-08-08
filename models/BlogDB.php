@@ -17,6 +17,16 @@ class BlogDB extends DB {
     /**
      * @return array
      */
+    public function getAccountByBlog($blog,$conn){
+        require_once 'Account.php';
+        $username = $blog->getUsername();
+        $query = "SELECT * FROM account WHERE  username='$username'";
+        $rows = $conn->query($query);
+        foreach ($rows as $row){
+            $account = new Account($row['username'],$row['password'],$row['fullname'],$row['phone'],$row['address'],$row['email'],$row['age'],$row['gender'],$row['description'],$row['avatar']);
+            return $account;
+        }
+    }
     public function getAll(){
         $conn = $this->connect();
         $query = "SELECT * FROM blog";
@@ -24,6 +34,7 @@ class BlogDB extends DB {
         $blogs = [];
         foreach ($rows as $row) {
             $blog = new Blog($row['id_blog'],$row['username'],$row['id_category'],$row['title'],$row['feature_image'],$row['content'],$row['posted_day']);
+            $blog->setAccount($this->getAccountByBlog($blog,$conn));
             $blogs[] = $blog;
         }
         return $blogs;

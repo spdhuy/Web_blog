@@ -8,36 +8,36 @@
 	<!-- Google Fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700|Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" href="../../css/animate.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<!-- Custom Stylesheet -->
-	<link rel="stylesheet" href="../../css/sign_style.css">
+	<link rel="stylesheet" href="css/sign_style.css">
 
 </head>
 
 <body>
 	<div class="container">
 		<div class="top">
-			<h1 id="title" class="hidden"><span id="logo">Daily <span>UI</span></span></h1>
+			<h1 id="title" class="hidden"><span id="logo">Code <span>press</span></span></h1>
 		</div>
-		<div class="login-box animated fadeInUp">
-			<div class="box-header">
+		<form class="login-box animated fadeInUp" action="/?page=login" method="get">
+			<div class="box-header" >
 				<h2>Log In</h2>
 			</div>
 			<label for="username">Username</label>
 			<br/>
-			<input type="text" id="username">
+			<input type="text" id="username" name="username">
 			<br/>
 			<label for="password">Password</label>
 			<br/>
-			<input type="password" id="password">
+			<input type="password" id="password" name="password">
 			<br/>
 			<button type="submit">Sign In</button>
 			<br/>
-			<a href="#"><p class="small">Have an account ? <span>Have an </span></p></a>
-		</div>
+			<a href="?page=sign_up"><p class="small">Don't have an account ? </p></a>
+		</form>
 	</div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="../../js/sign.js"></script>
+    <script src="js/sign.js"></script>
 </body>
 
 
