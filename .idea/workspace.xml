@@ -2,97 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a17f6991-7cb5-433d-9d26-8d7f0e37a850" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template_files/.idea/Simple Sidebar - Start Bootstrap Template_files.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template_files/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template_files/.idea/workspace.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template.htm" afterPath="$PROJECT_DIR$/SimpleSidebar.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template_files/bootstrap.min.css" afterPath="$PROJECT_DIR$/SimpleSidebar/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template_files/bootstrap.min.js" afterPath="$PROJECT_DIR$/SimpleSidebar/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template_files/font-awesome.min.css" afterPath="$PROJECT_DIR$/SimpleSidebar/font-awesome.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template_files/jquery-1.11.2.min.js" afterPath="$PROJECT_DIR$/SimpleSidebar/jquery-1.11.2.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template_files/sidebar_menu.js" afterPath="$PROJECT_DIR$/SimpleSidebar/sidebar_menu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template_files/simple-sidebar.css" afterPath="$PROJECT_DIR$/SimpleSidebar/simple-sidebar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/css/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/css/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/css/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/images/bx_loader.gif" afterPath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/images/bx_loader.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/images/controls.png" afterPath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/images/controls.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/ACC001.jpg" afterPath="$PROJECT_DIR$/img/ACC001.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/BL001.jpg" afterPath="$PROJECT_DIR$/img/BL001.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/BL002.png" afterPath="$PROJECT_DIR$/img/BL002.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/john boik.jpg" afterPath="$PROJECT_DIR$/img/john boik.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/lodo.png" afterPath="$PROJECT_DIR$/img/lodo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/photo_bg.jpg" afterPath="$PROJECT_DIR$/img/photo_bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/thomas oppong icon.jpeg" afterPath="$PROJECT_DIR$/img/thomas oppong icon.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/thomas oppong.jpeg" afterPath="$PROJECT_DIR$/img/thomas oppong.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitinore" afterPath="$PROJECT_DIR$/.gitinore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Web_blog.iml" afterPath="$PROJECT_DIR$/.idea/Web_blog.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHPProject (2).sql" afterPath="$PROJECT_DIR$/PHPProject (2).sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/AccountController.php" afterPath="$PROJECT_DIR$/controllers/AccountController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/BlogController.php" afterPath="$PROJECT_DIR$/controllers/BlogController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/CategoryController.php" afterPath="$PROJECT_DIR$/controllers/CategoryController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/ClientController.php" afterPath="$PROJECT_DIR$/controllers/ClientController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/InteractController.php" afterPath="$PROJECT_DIR$/controllers/InteractController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/animate.css" afterPath="$PROJECT_DIR$/css/animate.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap-theme.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/css/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/LICENSE.md" afterPath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/README.md" afterPath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/jquery.bxslider.css" afterPath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/jquery.bxslider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/jquery.bxslider.js" afterPath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/jquery.bxslider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/jquery.bxslider.min.css" afterPath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/jquery.bxslider.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/jquery.bxslider.min.js" afterPath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/jquery.bxslider.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/vendor/jquery.easing.1.3.js" afterPath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/vendor/jquery.easing.1.3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/vendor/jquery.fitvids.js" afterPath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/vendor/jquery.fitvids.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/css/bootstrap/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/css/bootstrap/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/js/jquery-3.2.1.min.js" afterPath="$PROJECT_DIR$/css/bootstrap/js/jquery-3.2.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sign_style.css" afterPath="$PROJECT_DIR$/css/sign_style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/config.js" afterPath="$PROJECT_DIR$/js/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery-3.2.1.min.js" afterPath="$PROJECT_DIR$/js/jquery-3.2.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/sign.js" afterPath="$PROJECT_DIR$/js/sign.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Account.php" afterPath="$PROJECT_DIR$/models/Account.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/AccountDB.php" afterPath="$PROJECT_DIR$/models/AccountDB.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Blog.php" afterPath="$PROJECT_DIR$/models/Blog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/BlogDB.php" afterPath="$PROJECT_DIR$/models/BlogDB.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Category.php" afterPath="$PROJECT_DIR$/models/Category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/CategoryDB.php" afterPath="$PROJECT_DIR$/models/CategoryDB.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/DB.php" afterPath="$PROJECT_DIR$/models/DB.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Interact.php" afterPath="$PROJECT_DIR$/models/Interact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/InteractDB.php" afterPath="$PROJECT_DIR$/models/InteractDB.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/database_error.php" afterPath="$PROJECT_DIR$/models/database_error.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/router/router.php" afterPath="$PROJECT_DIR$/router/router.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/accounts/addPage.php" afterPath="$PROJECT_DIR$/views/accounts/addPage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/accounts/delete.php" afterPath="$PROJECT_DIR$/views/accounts/delete.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/accounts/edit.php" afterPath="$PROJECT_DIR$/views/accounts/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/accounts/list.php" afterPath="$PROJECT_DIR$/views/accounts/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/blogs/addPage.php" afterPath="$PROJECT_DIR$/views/blogs/addPage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/blogs/delete.php" afterPath="$PROJECT_DIR$/views/blogs/delete.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/blogs/edit.php" afterPath="$PROJECT_DIR$/views/blogs/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/blogs/list.php" afterPath="$PROJECT_DIR$/views/blogs/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/categories/addPage.php" afterPath="$PROJECT_DIR$/views/categories/addPage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/categories/delete.php" afterPath="$PROJECT_DIR$/views/categories/delete.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/categories/edit.php" afterPath="$PROJECT_DIR$/views/categories/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/categories/list.php" afterPath="$PROJECT_DIR$/views/categories/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/client/create_blog.html" afterPath="$PROJECT_DIR$/views/client/create_blog.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/client/detail.php" afterPath="$PROJECT_DIR$/views/client/detail.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/client/home.php" afterPath="$PROJECT_DIR$/views/client/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/client/sign_in.php" afterPath="$PROJECT_DIR$/views/client/sign_in.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/client/web_blog.php" afterPath="$PROJECT_DIR$/views/client/web_blog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/interacts/addPage.php" afterPath="$PROJECT_DIR$/views/interacts/addPage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/interacts/delete.php" afterPath="$PROJECT_DIR$/views/interacts/delete.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/interacts/edit.php" afterPath="$PROJECT_DIR$/views/interacts/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/interacts/list.php" afterPath="$PROJECT_DIR$/views/interacts/list.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -107,8 +20,8 @@
       <file leaf-file-name="detail.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/client/detail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+            <state relative-caret-position="369">
+              <caret line="25" column="72" lean-forward="true" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -124,11 +37,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/client/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="53" column="81" lean-forward="false" selection-start-line="53" selection-start-column="81" selection-end-line="53" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BlogController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/BlogController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="66" column="5" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="66" selection-end-column="5" />
+            <state relative-caret-position="407">
+              <caret line="61" column="35" lean-forward="true" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -171,21 +94,6 @@
                 <marker date="1502271626000" expanded="true" signature="2679:2857" ph="UPDATE blog " />
                 <marker date="1502271626000" expanded="true" signature="2990:3033" ph="DELETE FROM " />
                 <marker date="1502271626000" expanded="true" signature="3006:3033" ph="DELETE FROM " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create_blog.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/client/create_blog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="56" lean-forward="false" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
-              <folding>
-                <element signature="e#249#253#0" expanded="true" />
-                <element signature="e#254#258#0" expanded="true" />
-                <element signature="e#272#276#0" expanded="true" />
-                <element signature="e#278#282#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -302,9 +210,7 @@
         <option value="$PROJECT_DIR$/controllers/ClientController.php" />
         <option value="$PROJECT_DIR$/models/Account.php" />
         <option value="$PROJECT_DIR$/views/accounts/list.php" />
-        <option value="$PROJECT_DIR$/views/client/detail.php" />
         <option value="$PROJECT_DIR$/models/Blog.php" />
-        <option value="$PROJECT_DIR$/views/client/home.php" />
         <option value="$PROJECT_DIR$/views/client/sign_in.php" />
         <option value="$PROJECT_DIR$/views/client/create_blog.html" />
         <option value="$PROJECT_DIR$/ckeditor-4/config.js" />
@@ -312,10 +218,12 @@
         <option value="$PROJECT_DIR$/SimpleSidebar.html" />
         <option value="$PROJECT_DIR$/views/accounts/addPage.php" />
         <option value="$PROJECT_DIR$/router/router.php" />
-        <option value="$PROJECT_DIR$/controllers/BlogController.php" />
         <option value="$PROJECT_DIR$/controllers/AccountController.php" />
         <option value="$PROJECT_DIR$/models/AccountDB.php" />
         <option value="$PROJECT_DIR$/models/BlogDB.php" />
+        <option value="$PROJECT_DIR$/views/client/home.php" />
+        <option value="$PROJECT_DIR$/controllers/BlogController.php" />
+        <option value="$PROJECT_DIR$/views/client/detail.php" />
       </list>
     </option>
   </component>
@@ -647,12 +555,12 @@
       <workItem from="1502069140890" duration="8850000" />
       <workItem from="1502156779171" duration="5437000" />
       <workItem from="1502177237435" duration="6298000" />
-      <workItem from="1502261644688" duration="6928000" />
+      <workItem from="1502261644688" duration="7535000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78766000" />
+    <option name="totallyTimeSpent" value="79373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="78" y="27" width="1842" height="948" extended-state="0" />
@@ -935,14 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/client/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/client/sign_in.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1031,34 +931,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router/router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="75" column="58" lean-forward="false" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/BlogController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="66" column="5" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="66" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/AccountController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/client/detail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -1080,6 +956,38 @@
             <marker date="1502271560000" expanded="true" signature="2963:3012" ph="SELECT * FRO... account" />
             <marker date="1502271560000" expanded="true" signature="2963:3013" ph="SELECT * FRO... account" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/BlogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="61" column="35" lean-forward="true" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/client/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="81" lean-forward="false" selection-start-line="53" selection-start-column="81" selection-end-line="53" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router/router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="75" column="58" lean-forward="false" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/client/detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="25" column="72" lean-forward="true" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -62,7 +62,7 @@ class BlogController
             $BlogDb = new BlogDB();
             $blog = $BlogDb->getBlogById($idBlog);
 
-            require './view/client/detail.php';
+            require './views/client/detail.php';
         }
     }
 }

@@ -51,7 +51,7 @@
                     <img src="img/<?= $blog->getFeatureImage() ?>"/></a>
                 <div class="content-item-right">
                     <div class="content-item-right-top">
-                        <a href="#"> <h3><?= $blog->getTitle() ?></h3></a>
+                        <a href="?page=detail_blog&id_blog=<?= $blog->getIdBlog() ?>"> <h3><?= $blog->getTitle() ?></h3></a>
                         <a href="#"><h4><?= $blog->getDescription() ?></h4></a>
                     </div>
                     <div class="content-item-right-bottom">
