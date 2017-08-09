@@ -48,11 +48,21 @@ class BlogController
     public function deleteBlog(){
         require_once './models/BlogDB.php';
         if(isset($_GET['id_blog'])){
-            $username=$_GET['id_blog'];
+            $idBlog=$_GET['id_blog'];
             $BlogDb = new BlogDB();
-            $BlogDb->deleteBlog($username);
+            $BlogDb->deleteBlog($idBlog);
 
             header('Location: http://localhost:8080/Web_blog/');
+        }
+    }
+    public function viewDetailBlog(){
+        require_once './models/BlogDB.php';
+        if(isset($_GET['id_blog'])){
+            $idBlog=$_GET['id_blog'];
+            $BlogDb = new BlogDB();
+            $blog = $BlogDb->getBlogById($idBlog);
+
+            require './view/client/detail.php';
         }
     }
 }

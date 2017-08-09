@@ -27,6 +27,16 @@ class BlogDB extends DB {
             return $account;
         }
     }
+    public function getBlogById($id_blog){
+        $conn = $this->connect();
+        $query = "SELECT * FROM blog where id_blog = '$id_blog'";
+        $rows = $conn->query($query);
+        foreach ($rows as $row) {
+            $blog = new Blog($row['id_blog'],$row['username'],$row['id_category'],$row['title'],$row['feature_image'],$row['content'],$row['posted_day']);
+            $blog->setAccount($this->getAccountByBlog($blog,$conn));
+            return $blog;
+        }
+    }
     public function getAll(){
         $conn = $this->connect();
         $query = "SELECT * FROM blog";

@@ -69,5 +69,11 @@ if(isset($_GET['page']))
         case 'login':
             request('AccountController','login');
             break;
+        case 'detail_blog':
+            request('BlogController','viewDetailBLog');
+            break;
+        case 'detail_account':
+            request('AccountController','viewDetailAccount');
+            break;
     }
 else request('ClientController','getAll');

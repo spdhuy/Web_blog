@@ -1,21 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Sample CKEditor Site</title>
+    <script type="text/javascript" src="../../ckeditor-4/ckeditor.js"></script>
 </head>
 <body>
-<form>
-    <textarea name="editor1" id="editor1" rows="10" cols="80">
-    </textarea>
-    <script src="../../js/jquery-3.2.1.min.js"></script>
-    <script src="//cdn.ckeditor.com/4.7.1/standard/ckeditor.js"></script>
-    <script type="text/javascript" >
-        CKEDITOR.replace( 'editor1');
-    </script>
-    <textarea >
-        <?php echo
-    </textarea>
+<form method="post">
+    <p>
+        My Editor:<br />
+        <textarea id="editor1" name="editor1">&lt;p&gt;Initial value.&lt;/p&gt;</textarea>
+        <script type="text/javascript">
+            CKEDITOR.replace( 'editor1' );
+        </script>
+    </p>
+    <p>
+        <input type="submit" />
+    </p>
 </form>
 </body>
 </html>

@@ -78,4 +78,15 @@ class AccountController
         }else
             require ('./views/client/sign_in.php');
     }
+    public function viewDetailAccount(){
+        require_once './models/AccountDB.php';
+        if(isset($_GET['username'])){
+            $username=$_GET['username'];
+            $AccountDb = new AccountDB();
+            $account = $AccountDb->getAccountByUsername($username);
+
+            require './view/client/detailAccount.php';
+        }
+    }
+
 }

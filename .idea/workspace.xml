@@ -2,18 +2,97 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a17f6991-7cb5-433d-9d26-8d7f0e37a850" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template_files/.idea/Simple Sidebar - Start Bootstrap Template_files.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template_files/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template_files/.idea/workspace.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template.htm" afterPath="$PROJECT_DIR$/SimpleSidebar.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template_files/bootstrap.min.css" afterPath="$PROJECT_DIR$/SimpleSidebar/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template_files/bootstrap.min.js" afterPath="$PROJECT_DIR$/SimpleSidebar/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template_files/font-awesome.min.css" afterPath="$PROJECT_DIR$/SimpleSidebar/font-awesome.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template_files/jquery-1.11.2.min.js" afterPath="$PROJECT_DIR$/SimpleSidebar/jquery-1.11.2.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template_files/sidebar_menu.js" afterPath="$PROJECT_DIR$/SimpleSidebar/sidebar_menu.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template_files/simple-sidebar.css" afterPath="$PROJECT_DIR$/SimpleSidebar/simple-sidebar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/css/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/css/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/css/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/images/bx_loader.gif" afterPath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/images/bx_loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/images/controls.png" afterPath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/images/controls.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/ACC001.jpg" afterPath="$PROJECT_DIR$/img/ACC001.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/BL001.jpg" afterPath="$PROJECT_DIR$/img/BL001.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/BL002.png" afterPath="$PROJECT_DIR$/img/BL002.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/john boik.jpg" afterPath="$PROJECT_DIR$/img/john boik.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/lodo.png" afterPath="$PROJECT_DIR$/img/lodo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/photo_bg.jpg" afterPath="$PROJECT_DIR$/img/photo_bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/thomas oppong icon.jpeg" afterPath="$PROJECT_DIR$/img/thomas oppong icon.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/thomas oppong.jpeg" afterPath="$PROJECT_DIR$/img/thomas oppong.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitinore" afterPath="$PROJECT_DIR$/.gitinore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Web_blog.iml" afterPath="$PROJECT_DIR$/.idea/Web_blog.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHPProject (2).sql" afterPath="$PROJECT_DIR$/PHPProject (2).sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/AccountController.php" afterPath="$PROJECT_DIR$/controllers/AccountController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/BlogController.php" afterPath="$PROJECT_DIR$/controllers/BlogController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/CategoryController.php" afterPath="$PROJECT_DIR$/controllers/CategoryController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/ClientController.php" afterPath="$PROJECT_DIR$/controllers/ClientController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/InteractController.php" afterPath="$PROJECT_DIR$/controllers/InteractController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/animate.css" afterPath="$PROJECT_DIR$/css/animate.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap-theme.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/bootstrap/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/css/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/LICENSE.md" afterPath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/README.md" afterPath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/jquery.bxslider.css" afterPath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/jquery.bxslider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/jquery.bxslider.js" afterPath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/jquery.bxslider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/jquery.bxslider.min.css" afterPath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/jquery.bxslider.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/jquery.bxslider.min.js" afterPath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/jquery.bxslider.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/vendor/jquery.easing.1.3.js" afterPath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/vendor/jquery.easing.1.3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/vendor/jquery.fitvids.js" afterPath="$PROJECT_DIR$/css/bootstrap/jquery.bxslider/vendor/jquery.fitvids.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/css/bootstrap/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/css/bootstrap/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap/js/jquery-3.2.1.min.js" afterPath="$PROJECT_DIR$/css/bootstrap/js/jquery-3.2.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sign_style.css" afterPath="$PROJECT_DIR$/css/sign_style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/config.js" afterPath="$PROJECT_DIR$/js/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery-3.2.1.min.js" afterPath="$PROJECT_DIR$/js/jquery-3.2.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/sign.js" afterPath="$PROJECT_DIR$/js/sign.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Account.php" afterPath="$PROJECT_DIR$/models/Account.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/AccountDB.php" afterPath="$PROJECT_DIR$/models/AccountDB.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Blog.php" afterPath="$PROJECT_DIR$/models/Blog.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/BlogDB.php" afterPath="$PROJECT_DIR$/models/BlogDB.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Category.php" afterPath="$PROJECT_DIR$/models/Category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/CategoryDB.php" afterPath="$PROJECT_DIR$/models/CategoryDB.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/DB.php" afterPath="$PROJECT_DIR$/models/DB.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Interact.php" afterPath="$PROJECT_DIR$/models/Interact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/InteractDB.php" afterPath="$PROJECT_DIR$/models/InteractDB.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/database_error.php" afterPath="$PROJECT_DIR$/models/database_error.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/router/router.php" afterPath="$PROJECT_DIR$/router/router.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/accounts/addPage.php" afterPath="$PROJECT_DIR$/views/accounts/addPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/accounts/delete.php" afterPath="$PROJECT_DIR$/views/accounts/delete.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/accounts/edit.php" afterPath="$PROJECT_DIR$/views/accounts/edit.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/accounts/list.php" afterPath="$PROJECT_DIR$/views/accounts/list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/blogs/addPage.php" afterPath="$PROJECT_DIR$/views/blogs/addPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/blogs/delete.php" afterPath="$PROJECT_DIR$/views/blogs/delete.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/blogs/edit.php" afterPath="$PROJECT_DIR$/views/blogs/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/blogs/list.php" afterPath="$PROJECT_DIR$/views/blogs/list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/categories/addPage.php" afterPath="$PROJECT_DIR$/views/categories/addPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/categories/delete.php" afterPath="$PROJECT_DIR$/views/categories/delete.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/categories/edit.php" afterPath="$PROJECT_DIR$/views/categories/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/categories/list.php" afterPath="$PROJECT_DIR$/views/categories/list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/client/create_blog.html" afterPath="$PROJECT_DIR$/views/client/create_blog.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/client/detail.php" afterPath="$PROJECT_DIR$/views/client/detail.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/client/home.php" afterPath="$PROJECT_DIR$/views/client/home.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/client/sign_in.php" afterPath="$PROJECT_DIR$/views/client/sign_in.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/client/web_blog.php" afterPath="$PROJECT_DIR$/views/client/web_blog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/interacts/addPage.php" afterPath="$PROJECT_DIR$/views/interacts/addPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/interacts/delete.php" afterPath="$PROJECT_DIR$/views/interacts/delete.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/interacts/edit.php" afterPath="$PROJECT_DIR$/views/interacts/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/interacts/list.php" afterPath="$PROJECT_DIR$/views/interacts/list.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,16 +104,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="web_blog.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/client/web_blog.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="58" column="92" lean-forward="false" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="92" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="detail.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/client/detail.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,11 +114,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/client/home.php">
+      <file leaf-file-name="router.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/router/router.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+            <state relative-caret-position="387">
+              <caret line="75" column="58" lean-forward="false" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlogController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/BlogController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="482">
+              <caret line="66" column="5" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="66" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -58,38 +137,65 @@
       <file leaf-file-name="AccountDB.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/AccountDB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+            <state relative-caret-position="418">
+              <caret line="77" column="68" lean-forward="false" selection-start-line="77" selection-start-column="68" selection-end-line="77" selection-end-column="68" />
               <folding>
                 <element signature="e#126#204#0#PHP" expanded="false" />
-                <marker date="1502184312000" expanded="true" signature="353:374" ph="SELECT * FRO... account" />
-                <marker date="1502184312000" expanded="true" signature="1264:1399" ph="INSERT INTO Account... " />
-                <marker date="1502184312000" expanded="true" signature="1957:2141" ph="update Accou... " />
-                <marker date="1502184312000" expanded="true" signature="1957:2170" ph="update Accou... " />
-                <marker date="1502184312000" expanded="true" signature="1963:2141" ph="INSERT INTO Account... " />
-                <marker date="1502184312000" expanded="true" signature="2307:2355" ph="DELETE FROM " />
-                <marker date="1502184312000" expanded="true" signature="2521:2570" ph="SELECT * FRO... account" />
-                <marker date="1502184312000" expanded="true" signature="2521:2597" ph="SELECT * FRO... account" />
+                <marker date="1502271560000" expanded="true" signature="353:374" ph="SELECT * FRO... account" />
+                <marker date="1502271560000" expanded="true" signature="1264:1399" ph="INSERT INTO Account... " />
+                <marker date="1502271560000" expanded="true" signature="1957:2141" ph="update Accou... " />
+                <marker date="1502271560000" expanded="true" signature="1957:2170" ph="update Accou... " />
+                <marker date="1502271560000" expanded="true" signature="1963:2141" ph="INSERT INTO Account... " />
+                <marker date="1502271560000" expanded="true" signature="2307:2355" ph="DELETE FROM " />
+                <marker date="1502271560000" expanded="true" signature="2521:2570" ph="SELECT * FRO... account" />
+                <marker date="1502271560000" expanded="true" signature="2521:2597" ph="SELECT * FRO... account" />
+                <marker date="1502271560000" expanded="true" signature="2963:3012" ph="SELECT * FRO... account" />
+                <marker date="1502271560000" expanded="true" signature="2963:3013" ph="SELECT * FRO... account" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="router.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/router/router.php">
+      <file leaf-file-name="BlogDB.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/BlogDB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="677">
-              <caret line="66" column="47" lean-forward="false" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
-              <folding />
+            <state relative-caret-position="220">
+              <caret line="35" column="68" lean-forward="false" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
+              <folding>
+                <element signature="e#122#200#0#PHP" expanded="false" />
+                <marker date="1502271626000" expanded="true" signature="411:460" ph="SELECT * FRO... account" />
+                <marker date="1502271626000" expanded="true" signature="868:913" ph="SELECT * FRO... blog" />
+                <marker date="1502271626000" expanded="true" signature="1336:1354" ph="SELECT * FRO... blog" />
+                <marker date="1502271626000" expanded="true" signature="2133:2250" ph="INSERT INTO blog... " />
+                <marker date="1502271626000" expanded="true" signature="2679:2839" ph="update blog " />
+                <marker date="1502271626000" expanded="true" signature="2679:2857" ph="UPDATE blog " />
+                <marker date="1502271626000" expanded="true" signature="2990:3033" ph="DELETE FROM " />
+                <marker date="1502271626000" expanded="true" signature="3006:3033" ph="DELETE FROM " />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="create_blog.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/client/create_blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="3" column="56" lean-forward="false" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+              <folding>
+                <element signature="e#249#253#0" expanded="true" />
+                <element signature="e#254#258#0" expanded="true" />
+                <element signature="e#272#276#0" expanded="true" />
+                <element signature="e#278#282#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleSidebar.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SimpleSidebar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-422">
+              <caret line="17" column="63" lean-forward="false" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -98,38 +204,28 @@
       <file leaf-file-name="AccountController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/AccountController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="78" column="48" lean-forward="false" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
+            <state relative-caret-position="432">
+              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sign_in.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/client/sign_in.php">
+      <file leaf-file-name="addPage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/accounts/addPage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="59" lean-forward="false" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/ClientController.php">
+      <file leaf-file-name="detailAccount.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/client/detailAccount.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="43" lean-forward="false" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/accounts/list.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="31" column="49" lean-forward="false" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -169,9 +265,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/sign.js" />
-        <option value="$PROJECT_DIR$/sign_in.php" />
-        <option value="$PROJECT_DIR$/css/sign_style.css" />
         <option value="$PROJECT_DIR$/js/config.js" />
         <option value="$PROJECT_DIR$/create_blog.html" />
         <option value="$PROJECT_DIR$/database/database.php" />
@@ -196,13 +289,10 @@
         <option value="$PROJECT_DIR$/views/categories/list.php" />
         <option value="$PROJECT_DIR$/views/categories/addPage.php" />
         <option value="$PROJECT_DIR$/models/AcccountDB.php" />
-        <option value="$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template.htm" />
         <option value="$PROJECT_DIR$/controllers/InteractController.php" />
         <option value="$PROJECT_DIR$/models/Interact.php" />
         <option value="$PROJECT_DIR$/models/Category.php" />
-        <option value="$PROJECT_DIR$/controllers/BlogController.php" />
         <option value="$PROJECT_DIR$/views/blogs/addPage.php" />
-        <option value="$PROJECT_DIR$/views/accounts/addPage.php" />
         <option value="$PROJECT_DIR$/views/accounts/edit.php" />
         <option value="$PROJECT_DIR$/controllers/CategoryController.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
@@ -210,16 +300,22 @@
         <option value="$PROJECT_DIR$/models/CategoryDB.php" />
         <option value="$PROJECT_DIR$/models/InteractDB.php" />
         <option value="$PROJECT_DIR$/controllers/ClientController.php" />
-        <option value="$PROJECT_DIR$/models/BlogDB.php" />
         <option value="$PROJECT_DIR$/models/Account.php" />
         <option value="$PROJECT_DIR$/views/accounts/list.php" />
         <option value="$PROJECT_DIR$/views/client/detail.php" />
         <option value="$PROJECT_DIR$/models/Blog.php" />
         <option value="$PROJECT_DIR$/views/client/home.php" />
-        <option value="$PROJECT_DIR$/router/router.php" />
-        <option value="$PROJECT_DIR$/models/AccountDB.php" />
-        <option value="$PROJECT_DIR$/controllers/AccountController.php" />
         <option value="$PROJECT_DIR$/views/client/sign_in.php" />
+        <option value="$PROJECT_DIR$/views/client/create_blog.html" />
+        <option value="$PROJECT_DIR$/ckeditor-4/config.js" />
+        <option value="$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template.htm" />
+        <option value="$PROJECT_DIR$/SimpleSidebar.html" />
+        <option value="$PROJECT_DIR$/views/accounts/addPage.php" />
+        <option value="$PROJECT_DIR$/router/router.php" />
+        <option value="$PROJECT_DIR$/controllers/BlogController.php" />
+        <option value="$PROJECT_DIR$/controllers/AccountController.php" />
+        <option value="$PROJECT_DIR$/models/AccountDB.php" />
+        <option value="$PROJECT_DIR$/models/BlogDB.php" />
       </list>
     </option>
   </component>
@@ -256,6 +352,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -310,25 +407,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accounts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Web_blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Web_blog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Simple Sidebar - Start Bootstrap Template_files" />
+              <option name="myItemId" value="SimpleSidebar" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -384,13 +463,40 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web_blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web_blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web_blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web_blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ckeditor-4" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,21 +504,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Applications/XAMPP/xamppfiles/htdocs/Web_blog/SimpleSidebar.php" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/views/interacts" />
-      <recent name="$PROJECT_DIR$/views/blogs" />
-      <recent name="$PROJECT_DIR$/views/accounts" />
-      <recent name="$PROJECT_DIR$/interacts" />
-      <recent name="$PROJECT_DIR$/accounts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/views/client" />
       <recent name="$PROJECT_DIR$/controllers" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/models" />
       <recent name="$PROJECT_DIR$/js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ckeditor-4/plugins" />
+      <recent name="$PROJECT_DIR$/views/interacts" />
+      <recent name="$PROJECT_DIR$/views/blogs" />
+      <recent name="$PROJECT_DIR$/views/accounts" />
+      <recent name="$PROJECT_DIR$/interacts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -540,11 +647,12 @@
       <workItem from="1502069140890" duration="8850000" />
       <workItem from="1502156779171" duration="5437000" />
       <workItem from="1502177237435" duration="6298000" />
+      <workItem from="1502261644688" duration="6928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71838000" />
+    <option name="totallyTimeSpent" value="78766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="78" y="27" width="1842" height="948" extended-state="0" />
@@ -554,6 +662,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -565,7 +674,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -582,50 +690,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/ckeditor.js" />
-    <entry file="file://$PROJECT_DIR$/js/sign.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/client/create_blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/database.php" />
-    <entry file="file://$PROJECT_DIR$/.gitinore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/CategoryDB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#48#126#0#PHP" expanded="false" />
-            <marker date="1502158148000" expanded="true" signature="276:298" ph="SELECT * FRO... cagetory" />
-            <marker date="1502158148000" expanded="true" signature="701:763" ph="INSERT INTO cagetory... " />
-            <marker date="1502158148000" expanded="true" signature="899:959" ph="update caget... " />
-            <marker date="1502158148000" expanded="true" signature="1091:1137" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/database_error.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -669,24 +733,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template_files/simple-sidebar.css">
+    <entry file="file://$PROJECT_DIR$/SimpleSidebar/simple-sidebar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1678">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template_files/sidebar_menu.js">
+    <entry file="file://$PROJECT_DIR$/SimpleSidebar/sidebar_menu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Simple Sidebar - Start Bootstrap Template.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -747,14 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/BlogController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="26" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -838,31 +887,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/BlogDB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="127" lean-forward="false" selection-start-line="25" selection-start-column="127" selection-end-line="25" selection-end-column="127" />
-          <folding>
-            <element signature="e#122#200#0#PHP" expanded="false" />
-            <marker date="1502166845000" expanded="true" signature="411:460" ph="SELECT * FRO... account" />
-            <marker date="1502166845000" expanded="true" signature="855:873" ph="SELECT * FRO... blog" />
-            <marker date="1502166845000" expanded="true" signature="1652:1769" ph="INSERT INTO blog... " />
-            <marker date="1502166845000" expanded="true" signature="2198:2358" ph="update blog " />
-            <marker date="1502166845000" expanded="true" signature="2198:2376" ph="UPDATE blog " />
-            <marker date="1502166845000" expanded="true" signature="2509:2552" ph="DELETE FROM " />
-            <marker date="1502166845000" expanded="true" signature="2525:2552" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/accounts/addPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/Account.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
@@ -889,7 +913,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/accounts/list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
+        <state relative-caret-position="465">
           <caret line="31" column="49" lean-forward="false" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
           <folding />
         </state>
@@ -903,36 +927,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router/router.php">
+    <entry file="file://$PROJECT_DIR$/views/client/web_blog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="66" column="47" lean-forward="false" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+        <state relative-caret-position="870">
+          <caret line="58" column="92" lean-forward="false" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="92" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/AccountDB.php">
+    <entry file="file://$PROJECT_DIR$/views/client/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+        <state relative-caret-position="315">
+          <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/client/sign_in.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="59" lean-forward="false" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckeditor-3/samples/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckeditor-3/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckeditor-3/ckeditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1328">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckeditor-4/plugins/uploadimage/plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckeditor-4/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/client/create_blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="56" lean-forward="false" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
           <folding>
-            <element signature="e#126#204#0#PHP" expanded="false" />
-            <marker date="1502184312000" expanded="true" signature="353:374" ph="SELECT * FRO... account" />
-            <marker date="1502184312000" expanded="true" signature="1264:1399" ph="INSERT INTO Account... " />
-            <marker date="1502184312000" expanded="true" signature="1957:2141" ph="update Accou... " />
-            <marker date="1502184312000" expanded="true" signature="1957:2170" ph="update Accou... " />
-            <marker date="1502184312000" expanded="true" signature="1963:2141" ph="INSERT INTO Account... " />
-            <marker date="1502184312000" expanded="true" signature="2307:2355" ph="DELETE FROM " />
-            <marker date="1502184312000" expanded="true" signature="2521:2570" ph="SELECT * FRO... account" />
-            <marker date="1502184312000" expanded="true" signature="2521:2597" ph="SELECT * FRO... account" />
+            <element signature="e#249#253#0" expanded="true" />
+            <element signature="e#254#258#0" expanded="true" />
+            <element signature="e#272#276#0" expanded="true" />
+            <element signature="e#278#282#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/accounts/addPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/client/detailAccount.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimpleSidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-422">
+          <caret line="17" column="63" lean-forward="false" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router/router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="75" column="58" lean-forward="false" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/BlogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="66" column="5" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="66" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/AccountController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="78" column="48" lean-forward="false" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
+        <state relative-caret-position="432">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -945,27 +1063,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/client/web_blog.php">
+    <entry file="file://$PROJECT_DIR$/models/AccountDB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="58" column="92" lean-forward="false" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="92" />
-          <folding />
+        <state relative-caret-position="418">
+          <caret line="77" column="68" lean-forward="false" selection-start-line="77" selection-start-column="68" selection-end-line="77" selection-end-column="68" />
+          <folding>
+            <element signature="e#126#204#0#PHP" expanded="false" />
+            <marker date="1502271560000" expanded="true" signature="353:374" ph="SELECT * FRO... account" />
+            <marker date="1502271560000" expanded="true" signature="1264:1399" ph="INSERT INTO Account... " />
+            <marker date="1502271560000" expanded="true" signature="1957:2141" ph="update Accou... " />
+            <marker date="1502271560000" expanded="true" signature="1957:2170" ph="update Accou... " />
+            <marker date="1502271560000" expanded="true" signature="1963:2141" ph="INSERT INTO Account... " />
+            <marker date="1502271560000" expanded="true" signature="2307:2355" ph="DELETE FROM " />
+            <marker date="1502271560000" expanded="true" signature="2521:2570" ph="SELECT * FRO... account" />
+            <marker date="1502271560000" expanded="true" signature="2521:2597" ph="SELECT * FRO... account" />
+            <marker date="1502271560000" expanded="true" signature="2963:3012" ph="SELECT * FRO... account" />
+            <marker date="1502271560000" expanded="true" signature="2963:3013" ph="SELECT * FRO... account" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/client/home.php">
+    <entry file="file://$PROJECT_DIR$/models/BlogDB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/client/sign_in.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="59" lean-forward="false" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-          <folding />
+        <state relative-caret-position="220">
+          <caret line="35" column="68" lean-forward="false" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
+          <folding>
+            <element signature="e#122#200#0#PHP" expanded="false" />
+            <marker date="1502271626000" expanded="true" signature="411:460" ph="SELECT * FRO... account" />
+            <marker date="1502271626000" expanded="true" signature="868:913" ph="SELECT * FRO... blog" />
+            <marker date="1502271626000" expanded="true" signature="1336:1354" ph="SELECT * FRO... blog" />
+            <marker date="1502271626000" expanded="true" signature="2133:2250" ph="INSERT INTO blog... " />
+            <marker date="1502271626000" expanded="true" signature="2679:2839" ph="update blog " />
+            <marker date="1502271626000" expanded="true" signature="2679:2857" ph="UPDATE blog " />
+            <marker date="1502271626000" expanded="true" signature="2990:3033" ph="DELETE FROM " />
+            <marker date="1502271626000" expanded="true" signature="3006:3033" ph="DELETE FROM " />
+          </folding>
         </state>
       </provider>
     </entry>
