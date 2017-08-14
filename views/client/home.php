@@ -18,7 +18,9 @@
                     <img src="img/lodo.png" alt="logo">
                 </div>
                 <div class="col-md-3 metabar-block-right">
-                    <a href="#">Write a story</a>
+                    <?php session_start(); ?>
+                    <?= !isset($_SESSION['user']) ?>
+                    <?php if(isset($_SESSION['user'])){ ?><a href="?page=view_create_blog" style="color: black">Create a blog!</a> <?php } ?>
                     <a href="?page=sign_in" style="color: black">Sign in/ Sign up</a>
                     <span class="glyphicon glyphicon-search"></span>
                 </div>
@@ -47,7 +49,7 @@
             <div>
             <?php foreach($blogs as $blog){?>
                 <div class="col-md-6 content-item">
-                <a href="detail.php">
+                <a href="?page=detail_blog&id_blog=<?= $blog->getIdBlog() ?>">
                     <img src="img/<?= $blog->getFeatureImage() ?>"/></a>
                 <div class="content-item-right">
                     <div class="content-item-right-top">
@@ -55,7 +57,7 @@
                         <a href="#"><h4><?= $blog->getDescription() ?></h4></a>
                     </div>
                     <div class="content-item-right-bottom">
-                        <a href="#"><img src="img/<?= $blog->getAccount()->getAvatar() ?>" height="40" width="40"/></a>
+                        <a href="#"><img src="<?= $blog->getAccount()->getAvatar() ?>" height="40" width="40"/></a>
                         <a href="#"><span class="glyphicon glyphicon-heart-empty"></span></a>
                         <a href="#"><?= $blog->getAccount()->getFullname() ?></br></a>
                     </div>

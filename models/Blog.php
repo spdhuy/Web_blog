@@ -26,6 +26,7 @@ class Blog{
      * @param $content
      * @param $postedDay
      */
+
     public function __construct($id_blog, $username, $id_category, $title, $feature_image, $content, $postedDay)
     {
         $this->id_blog = $id_blog;

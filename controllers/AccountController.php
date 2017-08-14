@@ -58,6 +58,7 @@ class AccountController
         }
     }
     public function signIn(){
+        session_start();
         if(isset($_SESSION['user'])){
 
         }
@@ -69,6 +70,8 @@ class AccountController
             $AccountDb = new AccountDB();
             try {
                 $account = $AccountDb->getAccountByUsernameAndPassword($_GET['username'], $_GET['password']);
+                session_start();
+                $_SESSION['user'] = $account->getUsername();
                 if($account->getUsername()=='admin') header('Location: http://localhost:8080/Web_blog/?page=list_category');
                 else header('Location: http://localhost:8080/Web_blog/');
             }

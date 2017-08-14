@@ -55,11 +55,11 @@ class BlogDB extends DB {
         $username = $blog->getUsername();
         $id_blog = $blog->getIdBlog();
         $id_category = $blog->getIdCategory();
-        $title = $blog->getTittle();
+        $title = $blog->getTitle();
         $feature_image = $blog->getFeatureImage();
         $content = $blog->getContent();
         $posted_day = $blog->getPostedDay();
-        $query = "INSERT INTO blog VALUES ('$id_blog','','$username','$id_category','$title','$feature_image','$content','$posted_day')";
+        $query = "INSERT INTO blog VALUES ('$id_blog','$username','$id_category','$title','$feature_image','$content','$posted_day')";
         $conn->query($query);
     }
     public function editBlog($blog){

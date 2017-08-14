@@ -19,7 +19,7 @@
 		<div class="top">
 			<h1 id="title" class="hidden"><span id="logo">Code <span>press</span></span></h1>
 		</div>
-		<form class="login-box animated fadeInUp" action="/?page=login" method="get">
+		<form class="login-box animated fadeInUp" action="http://localhost:8080/Web_blog/?page=login" method="get">
 			<div class="box-header" >
 				<h2>Log In</h2>
 			</div>
