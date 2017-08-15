@@ -50,10 +50,24 @@ class BlogDB extends DB {
         return $blogs;
     }
 
+    public function generateId(){
+        $conn = $this->connect();
+        $query = "SELECT * FROM blog WHERE id_blog=(SELECT MAX(id_blog) FROM blog);";
+        $rows = $conn->query($query);
+        if($rows->rowCount()==0){
+            return 'BL001';
+        }
+        else {
+            foreach ($rows as $row) {
+                $id =(intval(substr($row['id_blog'],4))+1)+"";
+                return 'BL00'.$id;
+            }
+        }
+    }
     public function addBlog($blog){
         $conn = $this->connect();
         $username = $blog->getUsername();
-        $id_blog = $blog->getIdBlog();
+        $id_blog = $this->generateId();
         $id_category = $blog->getIdCategory();
         $title = $blog->getTitle();
         $feature_image = $blog->getFeatureImage();

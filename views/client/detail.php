@@ -31,11 +31,11 @@
                 Part 2
             </div>
             <div class="col-md-12 author-content">
-                <a href="#"><img src="$blog->getAccount()->getAvatar() height="60" width="60"/></a>
+                <a href="#"><img src="<?= $blog->getAccount()->getAvatar() ?>" height="60" width="60"/></a>
                 <div>
                     <a href="#"><?= $blog->getAccount()->getFullname() ?></br></a>
                     <div class="col-md-10">
-                        <p>$blog->getAccoount()->getDescription()</p>
+                        <p><?= $blog->getAccount()->getDescription() ?></p>
                         <time datetime="2017-07-13">July 7 . 6 min read</time>
                     </div>
                 </div>

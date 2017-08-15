@@ -40,6 +40,7 @@ class Blog{
         $this->description = "";
         for($count =0;$count<strlen($content)&&$space_count<15;$count++){
             if($content[$count]==' ') $space_count++;
+            if($content[$count])
             $this->description .= $content[$count];
         }
         $this->description.="...";

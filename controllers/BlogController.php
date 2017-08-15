@@ -10,7 +10,6 @@ class BlogController
     public function getBlog(){
         require_once './models/Blog.php';
         $Blog = new Blog();
-        $Blog->setIdBlog($_POST['id_blog']);
         $Blog->setIdCategory($_POST['id_category']);
         $Blog->setFullname($_POST['username']);
         $Blog->setFeatureImage($_POST['feature_image']);
@@ -28,7 +27,7 @@ class BlogController
     }
     public function addBlog(){
         require_once './models/BlogDB.php';
-        if(isset($_POST['id_blog'])&&isset($_POST['id_category'])&&isset($_POST['username'])&&$_POST['title']){
+        if(isset($_POST['id_category'])&&isset($_POST['username'])&&$_POST['title']){
             $Blog = $this->getBlog();
             $BlogDb = new BlogDB();
             $BlogDb->addBlog($Blog);
