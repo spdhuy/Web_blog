@@ -1,63 +1,20 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
-</head>
-<body>
-<div class="container">
-    <div class="row">
-        <div class="col-md-12 header">
-            <div class="metabar-inner">
-                <div class="col-md-9 metabar-block-left">
-                    <img src="img/lodo.png" alt="logo">
-                </div>
-                <div class="col-md-3 metabar-block-right">
-                    <?php session_start(); ?>
-                    <?= !isset($_SESSION['user']) ?>
-                    <?php if(isset($_SESSION['user'])){ ?><a href="?page=view_create_blog" style="color: black">Create a blog!</a> <?php } ?>
-                    <a href="?page=sign_in" style="color: black">Sign in/ Sign up</a>
-                    <span class="glyphicon glyphicon-search"></span>
-                </div>
-            </div>
-            <div class=" metabar-inner">
-                <div class=" metabar-block">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Popular on medium</a></li>
-                        <li><a href="#">Audio</a></li>
-                        <li><a href="#">Member only</a></li>
-                        <li><a href="#">Handpicked by Medium staff</a></li>
-                        <li><a href="#">Technology</a></li>
-                        <li><a href="#">Creativity</a></li>
-                        <li><a href="#">Entrepreneurship</a></li>
-                        <li><a href="#">Culture</a></li>
-                        <li><a href="#">Self</a></li>
-                        <li><a href="#">Politic</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
+<?php require 'header.php'?>
+<div class="row">
         <div class="col-md-12 content">
             <div>
             <?php foreach($blogs as $blog){?>
                 <div class="col-md-6 content-item">
+                    <div class="content-item-left">
                 <a href="?page=detail_blog&id_blog=<?= $blog->getIdBlog() ?>">
                     <img src="img/<?= $blog->getFeatureImage() ?>"/></a>
+                    </div>
                 <div class="content-item-right">
                     <div class="content-item-right-top">
                         <a href="?page=detail_blog&id_blog=<?= $blog->getIdBlog() ?>"> <h3><?= $blog->getTitle() ?></h3></a>
                         <a href="#"><h4><?= $blog->getDescription() ?></h4></a>
                     </div>
                     <div class="content-item-right-bottom">
-                        <a href="#"><img src="<?= $blog->getAccount()->getAvatar() ?>" height="40" width="40"/></a>
+                        <a href="#"><img src="img/<?= $blog->getAccount()->getAvatar() ?>" style="height:40px; width: 40px;"/></a>
                         <a href="#"><span class="glyphicon glyphicon-heart-empty"></span></a>
                         <a href="#"><?= $blog->getAccount()->getFullname() ?></br></a>
                     </div>

@@ -22,6 +22,15 @@ h4{
     border-bottom: 1px solid #dddddd;
 
 }
+.to_login{
+    display:none;
+}
+.log_out{
+    display: none;
+}
+.to_create_blog{
+    display:none;
+}
 .metabar-block-left{
     float:left;
     margin: 0px;
@@ -42,15 +51,18 @@ h4{
     margin-top: 20px;
 }
 .metabar-inner ul{
-    padding-left: 0;
+    padding-left: 10px;
 }
 .metabar-inner ul li{
     list-style-type: none;
+    font-size: 25px;
     padding-top: 20px;
-    padding-right: 30px;
+    padding-right: 70px;
+    padding-left: 70px;
     float: left;
-
-
+}
+.dropdown{
+    display:none;
 }
 .metabar-inner ul li a{
     text-decoration: none;
@@ -88,10 +100,15 @@ h4{
     margin: 1%;
     padding: 0px;
 }
-
+.content-item-left{
+    float :left;
+    width: 40%;
+    overflow: hidden;
+    height: 100%;
+}
 .content-item img{
     float: left;
-    width: 40%;
+    width: auto;
     height: 100%;
 }
 .content-item-right{
@@ -252,3 +269,181 @@ h4{
     padding-left: 30px;
     padding-top: 10px;
 }
+
+.editor-blog-box{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.4);
+}
+
+.editor-blog-box .box-header {
+    background-color: #665851;
+    max-width: 100%;
+    color : white;
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 20px;
+    margin-top: 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.editor-blog-box label {
+    font-weight: 700;
+    font-size: .8em;
+    color: #888;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 2em;
+    margin-left: 20px;
+}
+
+.editor-blog-box input,.editor-blog-box img{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: .9em;
+    color: #888;
+}
+
+
+.editor-blog-box input:focus {
+    outline: none;
+    border-color: #665851;
+    transition: 0.5s;
+    color: #665851;
+}
+
+.editor-blog-box button {
+    margin-top: 0px;
+    margin: auto;
+    border: 0;
+    border-radius: 2px;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1em;
+    letter-spacing: 1px;
+    background-color: #665851;
+    cursor:pointer;
+    outline: none;
+}
+
+.editor-blog-box button:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.to-edit-page-button{
+    padding :10px;
+    font-size: 20px;
+    background-color: #2aabd2;
+    color:white;
+}
+@media only screen and (max-width: 480px) {
+    #logo{
+        width: auto;
+        height: 100%;
+    }
+    .metabar-block-right{
+        padding : 0px;
+        font-size: 0px;
+
+    }
+    .metabar-block-right-inner{
+        padding : 0px;
+        font-size: 0px;
+
+    }
+    .metabar-block-right a {
+        padding-right: 5px;
+        width: 40px;
+        height: 40px;
+    }
+    .to_login{
+        display:inline-block;
+    }
+    .dropbtn {
+        background-color: #0a94e3;
+        color: white;
+        padding: 10px 15px;
+        font-size: 12px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: #0000ff;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown a:hover {background-color: #f1f1f1}
+
+    .show {display:block;}
+    .metabar-block{
+        display :none;
+    }
+    .content-item{
+        width:100%;
+        height: auto;
+        box-shadow: 0 5px 50px rgba(0,0,0,0.4);
+    }
+    .content-item-left{
+        float :left;
+        width: 100%;
+        height: auto;
+    }
+    .content-item img{
+        float: left;
+        width: 100%;
+        height: auto;
+    }
+    .content-item-right{
+        float: right;
+        width: 100%;
+        padding-top:20px;
+        padding-right: 20px;
+        padding-left:20px;
+        height: auto;
+    }
+    .content-item-right-top{
+        height:auto;
+    }
+    .content-item-right-bottom{
+        padding: 10px 0px;
+    }
+    .log_out{
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+    }
+    .to_create_blog{
+        display:inline-block;
+        width: 45px;
+        height: 45px;
+    }
+}
+

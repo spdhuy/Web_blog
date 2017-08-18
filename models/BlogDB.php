@@ -37,6 +37,18 @@ class BlogDB extends DB {
             return $blog;
         }
     }
+    public function getBlogByUsername($username){
+        $conn = $this->connect();
+        $query = "SELECT * FROM blog where username = '$username'";
+        $rows = $conn->query($query);
+        $blogs = [];
+        foreach ($rows as $row) {
+            $blog = new Blog($row['id_blog'],$row['username'],$row['id_category'],$row['title'],$row['feature_image'],$row['content'],$row['posted_day']);
+            $blog->setAccount($this->getAccountByBlog($blog,$conn));
+            $blogs[] = $blog;
+        }
+        return $blogs;
+    }
     public function getAll(){
         $conn = $this->connect();
         $query = "SELECT * FROM blog";
@@ -81,7 +93,7 @@ class BlogDB extends DB {
         $username = $blog->getUsername();
         $id_blog = $blog->getIdBlog();
         $id_category = $blog->getIdCategory();
-        $title = $blog->getTittle();
+        $title = $blog->getTitle();
         $feature_image = $blog->getFeatureImage();
         $content = $blog->getContent();
         $posted_day = $blog->getPostedDay();

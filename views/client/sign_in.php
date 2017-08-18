@@ -17,9 +17,10 @@
 <body>
 	<div class="container">
 		<div class="top">
-			<h1 id="title" class="hidden"><span id="logo">Code <span>press</span></span></h1>
+            <a href="?"><h1 id="title" class="hidden"><span id="logo">Code<span>press</span></span></h1></a>
 		</div>
-		<form class="login-box animated fadeInUp" action="http://localhost:8080/Web_blog/?page=login" method="get">
+		<form class="login-box animated fadeInUp" action="" method="get">
+            <input type="hidden"  name="page" value="login">
 			<div class="box-header" >
 				<h2>Log In</h2>
 			</div>
@@ -33,7 +34,7 @@
 			<br/>
 			<button type="submit">Sign In</button>
 			<br/>
-			<a href="?page=sign_up"><p class="small">Don't have an account ? </p></a>
+			<a href="?page=sign_up"><p class="small">Don't have an account ?</p></a>
 		</form>
 	</div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

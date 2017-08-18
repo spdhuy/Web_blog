@@ -10,7 +10,7 @@ function request($controller,$action){
     $controller_class = new $controller();
     $controller_class->$action();
 }
-if(isset($_GET['page']))
+if(isset($_GET['page'])) {
     switch ($_GET['page']){
         case 'list_category':
             request('CategoryController','getAll');
@@ -66,6 +66,12 @@ if(isset($_GET['page']))
         case 'sign_in':
             request('AccountController','signIn');
             break;
+        case 'sign_up':
+            request('AccountController','signUp');
+            break;
+        case 'register':
+            request('AccountController','register');
+            break;
         case 'login':
             request('AccountController','login');
             break;
@@ -81,6 +87,23 @@ if(isset($_GET['page']))
         case 'post_blog':
             request('ClientController','postBlog');
             break;
-
+        case 'log_out':
+            request('ClientController','logOut');
+            break;
+        case 'to_edit_account_page':
+            request('AccountController','editInfo');
+            break;
+        case 'update_info':
+            request('AccountController','updateInfo');
+            break;
+        case 'to_edit_blog_page':
+            request('ClientController','toEditBlog');
+            break;
+        case 'to_list_own_page':
+            request('ClientController','getListUserBlog');
+            break;
+        case 'edit_own_blog':
+            request('ClientController','editBlog');
+            break;
     }
-else request('ClientController','getAll');
+} else request('ClientController','getAll');

@@ -10,7 +10,7 @@ class ClientController
     public function getBlog()
     {
         require_once './models/Blog.php';
-        $Blog = new Blog($_POST['id_blog'],$_POST['username'],$_POST['id_category'],$_POST['title'],basename($_FILES["feature_image"]["name"]),$_POST['content'],new DateTime()+"");
+        $Blog = new Blog($_POST['id_blog'],$_POST['username'],'CAT001',$_POST['title'],basename($_FILES["feature_image"]["name"]),$_POST['content'],"");
         return $Blog;
     }
 
@@ -61,5 +61,34 @@ class ClientController
                 echo "Sorry, there was an error uploading your file.";
             }
         }
+    }
+    public function logOut(){
+        session_start();
+        session_destroy();
+        header('Location: http://localhost:8080/Web_blog/');
+    }
+    public function getListUserBlog(){
+        require_once './models/BlogDB.php';
+        $blogDB = new BlogDB();
+        session_start();
+        $blogs = $blogDB->getBlogByUsername($_SESSION['user']);
+        session_abort();
+        require './views/client/list_own_blog.php';
+    }
+    public function toEditBlog(){
+        require_once './models/BlogDB.php';
+        $blogDB = new BlogDB();
+        $blog = $blogDB->getBlogById($_POST['id_blog']);
+        require './views/client/edit_blog.php';
+    }
+    public function editBlog(){
+        require_once './models/BlogDB.php';
+        if(isset($_POST['username'])&&isset($_POST['title'])){
+            $this->uploadImage();
+            $blog = $this->getBlog();
+            $blogDb = new BlogDB();
+            $blogDb->editBlog($blog);
+            header('?page=to_list_own_page');
+        }else  require './views/client/edit_blog.php';
     }
 }

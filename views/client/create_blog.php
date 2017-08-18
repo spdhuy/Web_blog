@@ -1,31 +1,43 @@
-<html>
-<head>
-    <title>Sample CKEditor Site</title>
+<?php require 'header.php'?>
     <script type="text/javascript" src="ckeditor-4/ckeditor.js"></script>
-</head>
-<body>
-<form method="post" action="?page=post_blog" enctype="multipart/form-data">
-    <p>
-        <?php session_start() ?>
-        Category : <br>
-        <input type="text" name="id_category">
-        <br>
-        <input type="hidden" name="username" value="<?= $_SESSION['user'] ?>">
-        Title :<br>
-        <input type="text" name="title" >
-        <br>
-        Feature image : <br>
-        <input type="file" name="feature_image">
-        <br>
-        My Editor:<br>
-        <textarea id="editor1" name="content">&lt;p&gt;Write your story&lt;/p&gt;</textarea>
-        <script type="text/javascript">
-            CKEDITOR.replace( 'editor1' );
-        </script>
-    </p>
-    <p>
-        <input type="submit" value="Post"/>
-    </p>
-</form>
+    <div class="row">
+    <form method="post" action="?page=post_blog" enctype="multipart/form-data" class="editor-blog-box">
+        <p>
+            <div class="box-header">New Story</div>
+            <br>
+            <input type="hidden" name="username" value="<?= $_SESSION['user'] ?>">
+            <label>Title</label><br>
+            <input type="text" name="title" style="width: 80%">
+            <br>
+            <label>Feature Image</label>  <br>
+            <input type="file" name="feature_image" onchange="readURL(this);">
+            <img id="feature-image" src="#" alt="Your blog feature image" />
+            <br>
+            <label>Your editor</label> <br>
+            <textarea id="editor1" name="content">&lt;p&gt;Write your story&lt;/p&gt;</textarea>
+            <script src="js/jquery-3.2.1.min.js"></script>
+            <script type="text/javascript">
+                function readURL(input) {
+                    if (input.files && input.files[0]) {
+                        var reader = new FileReader();
+
+                        reader.onload = function (e) {
+                            $('#feature-image')
+                                .attr('src', e.target.result)
+                                .width(150)
+                                .height(200);
+                        };
+
+                        reader.readAsDataURL(input.files[0]);
+                    }
+                }
+                CKEDITOR.replace( 'editor1' );
+            </script>
+        </p>
+        <p>
+            <button>Post</button>
+        </p>
+    </form>
+    </div>
 </body>
 </html>
