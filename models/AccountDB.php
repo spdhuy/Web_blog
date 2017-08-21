@@ -68,13 +68,11 @@ class AccountDB extends DB {
 
     public function getAccountByUsernameAndPassword($username,$password){
         $conn = $this->connect();
-        $query = "SELECT * FROM account WHERE  username='$username'";
+        $query = "SELECT * FROM account WHERE  username='$username' and password='$password'";
         $rows = $conn->query($query);
         foreach ($rows as $row) {
             $account = new Account($row['username'],$row['password'],$row['fullname'],$row['phone'],$row['address'],$row['email'],$row['age'],$row['gender'],$row['description'],$row['avatar']);
-            if(md5($password)==$account->getPassword())
             return $account;
-            else return null;
         }
     }
     public function getAccountByUsername($username){

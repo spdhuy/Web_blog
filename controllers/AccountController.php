@@ -38,7 +38,7 @@ class AccountController
             $account = $this->getAccount();
             $AccountDb = new AccountDB();
             $AccountDb->addAccount($account);
-            header('Location: http://localhost:8080/Web_blog/');
+            header('?');
         }else
             require ('./views/accounts/addPage.php');
     }
@@ -48,7 +48,7 @@ class AccountController
             $account = $this->getAccount();
             $AccountDb = new AccountDB();
             $AccountDb->editAccount($account);
-            header('Location: http://localhost:8080/Web_blog/');
+            header('?');
         }else
             require ('./views/accounts/edit.php');
     }
@@ -59,7 +59,7 @@ class AccountController
             $AccountDb = new AccountDB();
             $AccountDb->deleteAccount($username);
 
-            header('Location: http://localhost:8080/Web_blog/');
+            header('?');
         }
     }
     public function signIn(){
@@ -74,7 +74,7 @@ class AccountController
             $account = new Account($_POST['username'],md5($_POST['password']),'','','',$_POST['email'],'','','','');
             $AccountDb = new AccountDB();
             $AccountDb->addAccount($account);
-            header('Location: http://localhost:8080/Web_blog/');
+            header('?');
         }else
             require ('./views/client/register.php');
     }
@@ -83,16 +83,16 @@ class AccountController
         if(isset($_GET['username'])&&isset($_GET['password'])){
             $AccountDb = new AccountDB();
             try {
-                $account = $AccountDb->getAccountByUsernameAndPassword($_GET['username'], $_GET['password']);
+                $account = $AccountDb->getAccountByUsernameAndPassword($_GET['username'], md5($_GET['password']));
                 if($account == null) {
-                    header('Location: http://localhost:8080/Web_blog/?page=sign_in');
+                    header('?page=sign_in');
                 }
                 session_start();
                 $_SESSION['user'] = $account->getUsername();
-                if($account->getUsername()=='admin') header('Location: http://localhost:8080/Web_blog/?page=list_category');
-                else header('Location: http://localhost:8080/Web_blog/');
+                header('?');;
             }
             catch (Exception $e){
+                header('?');;
             }
         }else
             require ('./views/client/sign_in.php');

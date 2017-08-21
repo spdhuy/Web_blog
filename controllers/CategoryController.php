@@ -17,7 +17,7 @@ class CategoryController
             $name = $_POST['name'];
             $categoryDb = new CategoryDB();
             $categoryDb->addCategory($id,$name);
-            header('Location: http://localhost:8080/Web_blog/');
+            header('?');
         }else
         require ('./views/categories/addPage.php');
     }
@@ -29,7 +29,7 @@ class CategoryController
             $categoryDb = new CategoryDB();
             $categoryDb->editCategory($id,$name);
 
-            header('Location: http://localhost:8080/Web_blog/');
+            header('?');
         }else
         require ('./views/categories/edit.php');
     }
@@ -40,7 +40,7 @@ class CategoryController
             $categoryDb = new CategoryDB();
             $categoryDb->deleteCategory($id);
 
-            header('Location: http://localhost:8080/Web_blog/');
+            header('?');
         }
     }
 }

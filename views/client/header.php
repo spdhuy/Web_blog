@@ -18,15 +18,13 @@
                     <a href="?"><img id="logo" src="img/lodo.png" alt="logo"></a>
                 </div>
                 <div class="col-md-3 metabar-block-right">
-                    <div class="metabar-block-right-inner">
                         <?php session_start(); ?>
-                        <?php if(isset($_SESSION['user'])){ ?><a href="?page=view_create_blog" style="color: black">Create a blog!<img class="log_out" src="img/create-blog-logo.png"></a>
-                            <a href="?page=log_out" class="metabar-block-right-account">Log out<img class="to_create_blog" src="img/log-out-logo.ico"></a>
+                        <?php if(isset($_SESSION['user'])){ ?><a href="?page=view_create_blog" width="45px" height="45px">Create a blog!<img class="log_out" src="img/create-blog-logo.png"></a>
+                            <a href="?page=log_out" class="metabar-block-right-account" width="32px" height="32px">Log out<img class="to_create_blog" src="img/log-out-logo.ico"></a>
                         <?php } else {?>
                             <a href="?page=sign_in" >Sign in/ Sign up<img class="to_login" src="img/login-icon.png"></a>
                         <?php }?>
-                        <a href="?page=to_edit_account_page"><span class="glyphicon glyphicon-edit"></span></a>
-                    </div>
+                        <?php if(isset($_SESSION['user'])) {?><a href="?page=to_edit_account_page"><span class="glyphicon glyphicon-edit"></span></a> <?php }?>
                 </div>
             </div>
             <div class=" metabar-inner">

@@ -34,7 +34,7 @@ class ClientController
             $blog = $this->getBlog();
             $blogDb = new BlogDB();
             $blogDb->addBlog($blog);
-            header('Location: http://localhost:8080/Web_blog/');
+            header('?');
         }else  require './views/client/create_blog.php';
     }
     public function uploadImage(){

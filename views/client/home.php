@@ -1,5 +1,5 @@
 <?php require 'header.php'?>
-<div class="row">
+    <div class="row">
         <div class="col-md-12 content">
             <div>
             <?php foreach($blogs as $blog){?>

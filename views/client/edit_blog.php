@@ -13,7 +13,7 @@
         <br>
         <label>Feature Image</label>  <br>
         <input type="file" name="feature_image" onchange="readURL(this);" value="<?= $blog->getFeatureImage() ?>">
-        <img id="feature-image" src="img/<?= $blog->getFeatureImage() ?>"" alt="Your blog feature image" />
+        <img id="feature-image" src="img/<?= $blog->getFeatureImage() ?>" alt="Your blog feature image" style="width:30%;height:auto;" />
         <br>
         <label>Your editor</label> <br>
         <textarea id="editor1" name="content"><?= $blog->getContent()?></textarea>

@@ -43,7 +43,7 @@ h4{
 .metabar-block-right a{
     text-decoration: none;
     color: grey;
-    padding-right: 25px;
+    padding-left: 25px;
 }
 .metabar-inner{
     width: 100%;
@@ -91,6 +91,7 @@ h4{
 .flex{
     float: right;
     padding-top:10px;
+    text-align: center;
 }
 .content-item{
     width: 48%;
@@ -174,8 +175,6 @@ h4{
 .content-right{
     background-color:white;
     margin: 20px 0;
-
-
 }
 .accentColor{
     border-top: 1px solid #cccccc;
@@ -350,17 +349,13 @@ h4{
     .metabar-block-right{
         padding : 0px;
         font-size: 0px;
-
     }
     .metabar-block-right-inner{
         padding : 0px;
         font-size: 0px;
-
     }
     .metabar-block-right a {
         padding-right: 5px;
-        width: 40px;
-        height: 40px;
     }
     .to_login{
         display:inline-block;

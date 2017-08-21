@@ -31,7 +31,7 @@ class BlogController
             $Blog = $this->getBlog();
             $BlogDb = new BlogDB();
             $BlogDb->addBlog($Blog);
-            header('Location: http://localhost:8080/Web_blog/');
+            header('?');
         }else
             require ('./views/blogs/addPage.php');
     }
@@ -41,7 +41,7 @@ class BlogController
             $Blog = $this->getBlog();
             $BlogDb = new BlogDB();
             $BlogDb->editBlog($Blog);
-            header('Location: http://localhost:8080/Web_blog/');
+            header('?');
         }else
             require ('./views/blogs/edit.php');
     }
@@ -52,7 +52,7 @@ class BlogController
             $BlogDb = new BlogDB();
             $BlogDb->deleteBlog($idBlog);
 
-            header('Location: http://localhost:8080/Web_blog/');
+            header('?');
         }
     }
     public function viewDetailBlog(){
